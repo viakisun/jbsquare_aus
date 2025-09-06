@@ -34,14 +34,14 @@
     "companyDirectory": "기업 디렉토리"
   },
   "stats": {
-    "title": "한눈에 보는 전북 바이오 산업",
-    "subtitle": "강력한 인프라와 인재를 바탕으로 한 혁신과 성장의 생태계입니다.",
-    "companies": "기업",
-    "institutes": "기관",
-    "investment": "총 투자액",
-    "researchers": "연구 인력",
-    "patents": "특허",
-    "partners": "글로벌 파트너"
+    "title": "JB SQUARE 주요 성과",
+    "subtitle": "지속적인 지원과 전략적 이니셔티브를 통해 바이오 산업의 성장과 혁신을 주도합니다.",
+    "incubated": "육성 스타트업",
+    "funding": "총 투자 유치액",
+    "patents": "상용화된 특허",
+    "jobs": "창출된 일자리",
+    "partnerships": "글로벌 파트너십",
+    "events": "개최된 이벤트"
   },
   "announcements": {
     "title": "최신 뉴스 및 공지사항",
@@ -91,12 +91,12 @@
   },
   "data": {
     "stats": {
-      "companies": { "number": "150+" },
-      "institutes": { "number": "25" },
-      "investment": { "number": "2.5조 원" },
-      "researchers": { "number": "5,000+" },
-      "patents": { "number": "1,200+" },
-      "partners": { "number": "40+" }
+      "incubated": { "number": "50+", "desc": "인큐베이션 프로그램을 성공적으로 졸업한 유망 스타트업." },
+      "funding": { "number": "3,000억 원", "desc": "JB SQUARE 생태계 내 기업들이 유치한 총 투자 금액입니다." },
+      "patents": { "number": "75", "desc": "우리의 지원을 통해 성공적으로 상용화된 기술 및 특허." },
+      "jobs": { "number": "1,200+", "desc": "파트너 기업 및 육성 스타트업이 창출한 신규 일자리." },
+      "partnerships": { "number": "40+", "desc": "협력 증진을 위해 구축된 국내외 파트너십." },
+      "events": { "number": "100+", "desc": "커뮤니티 구축을 위해 개최된 세미나, 워크숍 및 네트워킹 이벤트." }
     },
     "announcements": {
       "status": { "active": "진행중", "open": "모집중", "closing_soon": "마감 임박", "closed": "마감", "completed": "완료" },
