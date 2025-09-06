@@ -138,15 +138,15 @@
         "biomaterials": "Biomaterials",
         "enviro": "Environmental Bio"
       },
-      "1": { "description": "Next-generation cancer therapeutics development." },
-      "2": { "description": "AI-powered diagnostic medical device manufacturing." },
-      "3": { "description": "Personalized genomic analysis and therapeutics." },
-      "4": { "description": "Developing sustainable crop enhancement solutions." },
-      "5": { "description": "AI platform for predictive diagnostics and healthcare analytics." },
-      "6": { "description": "Pioneering stem cell therapies for regenerative medicine." },
-      "7": { "description": "Microbiome-based personalized nutrition solutions." },
-      "8": { "description": "Manufacturing biodegradable plastics from organic waste." },
-      "9": { "description": "Developing microbial solutions for water purification." }
+      "1": { "description": "Developing next-generation therapeutics for oncology and rare diseases." },
+      "2": { "description": "Manufacturing AI-powered devices for early-stage diagnostics." },
+      "3": { "description": "Providing personalized genomic analysis and targeted therapeutic solutions." },
+      "4": { "description": "Creating advanced, sustainable solutions for modern crop enhancement." },
+      "5": { "description": "A leading AI platform for predictive diagnostics and healthcare data analytics." },
+      "6": { "description": "Pioneering novel stem cell therapies for advanced regenerative medicine." },
+      "7": { "description": "Developing personalized nutrition solutions based on microbiome analysis." },
+      "8": { "description": "Manufacturing fully biodegradable plastics from recycled organic materials." },
+      "9": { "description": "Creating innovative microbial solutions for industrial water purification." }
     },
     "tech": {
       "1": { "title": "Novel CRISPR-Cas12 Variant for Enhanced Gene Editing" },

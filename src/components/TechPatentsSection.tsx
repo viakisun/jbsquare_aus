@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { boldFadeIn, staggerBold } from './animations';
+import { boldFadeIn, staggerParent } from './animations';
 import { techData } from '../data/tech';
 
 const TechPatentsSection = ({ id }: SectionProps) => {
@@ -17,7 +17,7 @@ const TechPatentsSection = ({ id }: SectionProps) => {
         </motion.div>
 
         <div className="bg-slate-50 rounded-2xl p-8">
-          <motion.div variants={staggerBold} initial="initial" whileInView="animate" viewport={{ once: true }}>
+          <motion.div variants={staggerParent} initial="initial" whileInView="animate" viewport={{ once: true }}>
             {techData.map(item => (
               <motion.div key={item.id} variants={boldFadeIn} className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center mb-4 p-4 hover:bg-white rounded-lg transition-all">
                 <div className="md:col-span-2">
