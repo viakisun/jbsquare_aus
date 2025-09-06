@@ -183,6 +183,33 @@
       "3": { "title": "AI-Driven Platform for Predicting Protein Folding" },
       "4": { "title": "License for Continuous Glucose Monitoring Sensor Tech" },
       "5": { "title": "Microbiome Modulation for Immune-Oncology Therapies" }
+    },
+    "orgs": {
+      "tags": {
+        "biz_support": "Business Support",
+        "rd_support": "R&D Support",
+        "commercialization": "Commercialization",
+        "agritech": "Agritech",
+        "genomics": "Genomics",
+        "clinical_trials": "Clinical Trials",
+        "education": "Education",
+        "medtech": "MedTech",
+        "food_science": "Food Science",
+        "incubation": "Incubation",
+        "biomaterials": "Biomaterials"
+      },
+      "1": { "desc": "A central institution for the Jeonbuk bio-industry, supporting commercialization and corporate growth." },
+      "2": { "desc": "Specializing in the commercialization and transfer of agricultural technology." },
+      "3": { "desc": "A leading national research institute focused on biotechnology and life sciences." },
+      "4": { "desc": "A specialized institute for non-clinical and safety evaluation of new drugs." },
+      "5": { "desc": "A leading regional university fostering talent in life sciences and biotechnology." },
+      "6": { "desc": "A major university with strengths in medicine, pharmacy, and bio-related fields." },
+      "7": { "desc": "An institute supporting technology development and commercialization for SMEs." },
+      "8": { "desc": "Researching advanced radiation technology and its application in biotechnology." },
+      "9": { "desc": "A university fostering talent in fields like alternative foods and food science." },
+      "10": { "desc": "A regional innovation hub supporting technology-based companies." },
+      "11": { "desc": "Researching carbon resource utilization and eco-friendly chemical processes." },
+      "12": { "desc": "A university focused on marine biotechnology and agricultural sciences." }
     }
   }
 }
