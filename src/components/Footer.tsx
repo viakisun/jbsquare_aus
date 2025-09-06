@@ -1,0 +1,63 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { SectionProps } from './types';
+import { Linkedin, Twitter, Facebook } from 'lucide-react';
+
+const Footer = ({ id }: SectionProps) => {
+  const { t } = useTranslation();
+
+  const navItems = [
+    { title: t('nav.about'), key: 'about', subItems: [ { name: t('nav.jbsquare'), href: '#jbsquare' }, { name: t('nav.biovalley'), href: '#biovalley' }, { name: t('nav.supportorgs'), href: '#supportorgs' } ] },
+    { title: t('nav.opportunities'), key: 'opportunities', subItems: [ { name: t('nav.investment'), href: '#investment' }, { name: t('nav.announcements'), href: '#announcements' }, { name: t('nav.bizsupport'), href: '#bizsupport' } ] },
+    { title: t('nav.information'), key: 'information', subItems: [ { name: t('nav.companies'), href: '#companies' }, { name: t('nav.patents'), href: '#patents' } ] },
+    { title: t('nav.news'), key: 'news', subItems: [ { name: t('nav.news'), href: '#news' }, { name: t('nav.community'), href: '#community' } ] }
+  ];
+
+  return (
+    <footer id={id} className="bg-[#0B2D63] text-white relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0B2D63] via-[#1a4480] to-purple-900 opacity-80"></div>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
+          <div className="lg:col-span-2">
+            <h3 className="text-3xl font-black mb-8">
+              JB <span className="text-[#FFC940]">SQUARE</span>
+            </h3>
+            <p className="text-white/90 mb-8 leading-relaxed text-lg font-medium">
+              {t('footer.subtitle')}
+            </p>
+            <div className="space-y-4">
+              <h4 className="font-bold text-lg text-white">Stay Updated</h4>
+              <div className="flex">
+                <input type="email" placeholder="Enter your email" className="bg-white/10 text-white placeholder-white/50 px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-[#FFC940]" />
+                <button className="bg-[#FFC940] text-[#0B2D63] px-4 py-2 rounded-r-lg font-bold">Subscribe</button>
+              </div>
+            </div>
+             <div className="flex space-x-4 mt-8">
+                <a href="#" className="text-white/70 hover:text-white"><Linkedin /></a>
+                <a href="#" className="text-white/70 hover:text-white"><Twitter /></a>
+                <a href="#" className="text-white/70 hover:text-white"><Facebook /></a>
+              </div>
+          </div>
+
+          {navItems.map(section => (
+            <div key={section.key}>
+              <h4 className="font-black mb-6 text-xl uppercase tracking-wider">{section.title}</h4>
+              <ul className="space-y-4 text-white/90">
+                {section.subItems?.map(link => (
+                  <li key={link.name}><a href={link.href} className="hover:text-[#FFC940] transition-colors font-semibold text-lg">{link.name}</a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div className="border-t border-white/20 mt-16 pt-10 text-center">
+          <p className="text-white/80 text-lg font-medium" dangerouslySetInnerHTML={{ __html: t('footer.copyright') }}>
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

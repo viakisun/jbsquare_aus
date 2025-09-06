@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "About",
+    "opportunities": "Opportunities",
+    "information": "Information",
+    "news": "News",
+    "support": "Support",
+    "jbsquare": "JB-Square (Bio Cluster)",
+    "biovalley": "Regional Bio-Valley",
+    "supportorgs": "Support Organizations",
+    "investment": "Policy & Investment Guide",
+    "announcements": "Announcements",
+    "bizsupport": "Business Support",
+    "companies": "Company Information",
+    "patents": "Tech & Patents",
+    "contact": "Notifications & Inquiries",
+    "newsletter": "Newsletter Subscription",
+    "lang_ko": "한국어",
+    "lang_en": "ENGLISH",
+    "getStarted": "GET STARTED"
+  },
+  "hero": {
+    "tagline": "Welcome to JB SQUARE",
+    "title": "THE HEART OF BIO-INNOVATION",
+    "subtitle": "JB SQUARE: Asia's premier bio-cluster for research, development, and investment.",
+    "exploreButton": "EXPLORE OPPORTUNITIES",
+    "companyDirectory": "COMPANY DIRECTORY"
+  },
+  "stats": {
+    "title": "POWERING INNOVATION",
+    "subtitle": "Building the future of biotechnology with unprecedented scale and impact",
+    "companies": "Biotech Companies",
+    "institutes": "Research Institutes",
+    "investment": "Annual Investment",
+    "researchers": "Researchers",
+    "patents": "Patents Filed",
+    "partners": "Global Partners"
+  },
+  "announcements": {
+    "title": "LATEST OPPORTUNITIES",
+    "subtitle": "Don't miss out on game-changing opportunities in Korea's biotech ecosystem",
+    "viewAll": "VIEW ALL OPPORTUNITIES"
+  },
+  "events": {
+    "title": "UPCOMING EVENTS",
+    "subtitle": "Connect with industry titans and discover breakthrough opportunities at our world-class biotech events",
+    "featured": "FEATURED EVENT",
+    "attendees": "{{count}} ATTENDEES",
+    "register": "REGISTER NOW"
+  },
+  "companies": {
+    "title": "BREAKTHROUGH COMPANIES",
+    "subtitle": "Meet the innovative companies revolutionizing healthcare and life sciences from Korea",
+    "industry": "Industry",
+    "teamSize": "Team Size",
+    "location": "Location",
+    "viewCompany": "VIEW COMPANY",
+    "exploreAll": "EXPLORE ALL COMPANIES"
+  },
+  "supportOrgs": {
+    "title": "SUPPORTING ECOSYSTEM",
+    "subtitle": "A collaborative network of government agencies, universities, and research institutes powering our growth."
+  },
+  "policy": {
+    "title": "POLICY & INVESTMENT",
+    "subtitle": "Favorable policies and robust investment programs to accelerate your success.",
+    "tab_policies": "Key Policies",
+    "tab_investments": "Investment Programs"
+  },
+  "tech": {
+    "title": "RESEARCH & PATENTS",
+    "subtitle": "Explore the cutting-edge intellectual property and research originating from JB SQUARE.",
+    "viewDetails": "View Details"
+  },
+  "footer": {
+    "subtitle": "Asia's premier biotechnology ecosystem connecting global innovation with world-class research excellence.",
+    "copyright": "&copy; 2025 JB SQUARE. All Rights Reserved."
+  }
+}
