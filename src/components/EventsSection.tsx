@@ -44,7 +44,7 @@ const EventsSection = ({ id }: SectionProps) => {
               <div className="h-56 relative overflow-hidden">
                 <img
                   src={event.image}
-                  alt={event.title}
+                  alt={t(event.titleKey)}
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -62,7 +62,7 @@ const EventsSection = ({ id }: SectionProps) => {
 
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="px-3 py-1 text-xs font-bold rounded-full bg-white/20 backdrop-blur-md text-white border border-white/30 uppercase tracking-wider">
-                    {event.category}
+                    {t(event.categoryKey)}
                   </span>
                 </div>
               </div>
@@ -72,10 +72,10 @@ const EventsSection = ({ id }: SectionProps) => {
                   <Calendar className="w-4 h-4 mr-2" />
                   {event.date}
                 </div>
-                <h3 className="text-xl font-black text-[#0B2D63] mb-4 leading-tight">{event.title}</h3>
+                <h3 className="text-xl font-black text-[#0B2D63] mb-4 leading-tight">{t(event.titleKey)}</h3>
                 <div className="flex items-center text-sm text-slate-600 mb-6 font-medium">
                   <MapPin className="w-4 h-4 mr-2" />
-                  {event.location}
+                  {t(event.locationKey)}
                 </div>
                 <button className={`w-full px-6 py-3 font-black rounded-xl transition-all transform hover:scale-105 ${
                   event.featured

@@ -142,7 +142,18 @@
       "6": { "title": "Networking Night: Bio-Pharma Professionals", "location": "The Grand Hill Hotel, Jeonju" },
       "7": { "title": "Webinar: The Future of CRISPR Technology", "location": "Online" },
       "8": { "title": "JB Bio-Cluster Open House", "location": "JB SQUARE Main Campus" },
-      "9": { "title": "End-of-Year Gala & Awards Ceremony", "location": "Jeonju City Hall" }
+      "9": { "title": "End-of-Year Gala & Awards Ceremony", "location": "Jeonju City Hall" },
+      "category": {
+        "summit": "Summit",
+        "forum": "Forum",
+        "investment": "Investment",
+        "workshop": "Workshop",
+        "demo_day": "Demo Day",
+        "networking": "Networking",
+        "webinar": "Webinar",
+        "open_house": "Open House",
+        "gala": "Gala"
+      }
     },
     "companies": {
       "industry": {
