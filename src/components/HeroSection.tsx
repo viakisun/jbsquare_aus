@@ -36,7 +36,7 @@ const HeroSection = ({ id }: SectionProps) => {
               <span>{t('hero.exploreButton')}</span>
               <ChevronRight className="w-6 h-6" />
             </motion.button>
-            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-full sm:w-auto px-12 py-5 border-3 border-white text-white font-black text-lg rounded-xl hover:bg-white hover:text-[#0B2D63] transition-all shadow-2xl">
+            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-full sm:w-auto px-12 py-5 border-2 border-white/50 text-white font-black text-lg rounded-xl hover:bg-white hover:text-[#0B2D63] transition-all shadow-2xl bg-white/10 backdrop-blur-sm">
               {t('hero.companyDirectory')}
             </motion.button>
           </div>
