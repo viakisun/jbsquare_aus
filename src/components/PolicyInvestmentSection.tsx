@@ -64,7 +64,7 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
             </motion.div>
           </AnimatePresence>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
