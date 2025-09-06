@@ -42,7 +42,7 @@ const CompaniesSection = ({ id }: SectionProps) => {
               <div className="h-48 relative overflow-hidden">
                 <img
                   src={company.image}
-                  alt={company.name}
+                  alt={t(company.nameKey)}
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -58,33 +58,33 @@ const CompaniesSection = ({ id }: SectionProps) => {
                   <div className="w-16 h-16 bg-white rounded-xl border-3 border-slate-200 flex items-center justify-center overflow-hidden shadow-lg">
                     <img
                       src={company.logo}
-                      alt={`${company.name} logo`}
+                      alt={t('companies.logoAlt', { name: t(company.nameKey) })}
                       className="w-12 h-12 object-cover rounded-lg"
                     />
                   </div>
                   <div className="text-right">
                     <span className="block px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-full uppercase tracking-wider mb-1">
-                      {company.stage}
+                      {t(company.stageKey)}
                     </span>
-                    <span className="text-lg font-black text-[#FFC940]">{company.valuation}</span>
+                    <span className="text-lg font-black text-[#FFC940]">{t(company.valuationKey)}</span>
                   </div>
                 </div>
 
-                <h3 className="text-xl font-black text-[#0B2D63] mb-2">{company.name}</h3>
-                <p className="text-slate-600 mb-4 font-medium">{company.description}</p>
+                <h3 className="text-xl font-black text-[#0B2D63] mb-2">{t(company.nameKey)}</h3>
+                <p className="text-slate-600 mb-4 font-medium">{t(company.descriptionKey)}</p>
 
                 <div className="space-y-3 text-sm mb-6">
                   <div className="flex justify-between items-center">
                     <span className="text-slate-500 font-semibold">{t('companies.industry')}:</span>
-                    <span className="text-slate-700 font-bold">{company.industry}</span>
+                    <span className="text-slate-700 font-bold">{t(company.industryKey)}</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-500 font-semibold">{t('companies.teamSize')}:</span>
-                    <span className="text-slate-700 font-bold">{company.employees}</span>
+                    <span className="text-slate-700 font-bold">{t(company.employeesKey)}</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-500 font-semibold">{t('companies.location')}:</span>
-                    <span className="text-slate-700 font-bold">{company.location}</span>
+                    <span className="text-slate-700 font-bold">{t(company.locationKey)}</span>
                   </div>
                 </div>
 

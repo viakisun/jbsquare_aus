@@ -50,7 +50,7 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
                     <motion.div variants={cardItem} key={index} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all text-center">
                       <h3 className="font-black text-2xl text-[#0B2D63] mb-2">{t(inv.titleKey)}</h3>
                       <p className="text-4xl font-bold text-[#FFC940] mb-2">{t(inv.sizeKey)}</p>
-                      <p className="text-slate-500 font-semibold">Focus: {t(inv.focusKey)}</p>
+                      <p className="text-slate-500 font-semibold">{t('policy.focus_label')}: {t(inv.focusKey)}</p>
                     </motion.div>
                   ))}
                 </div>
