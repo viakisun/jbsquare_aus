@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { boldFadeIn, staggerParent } from './animations';
+import { slideInLeft, staggerParent } from './animations';
 import { orgs } from '../data/supportOrgs';
 
 const SupportOrgsSection = ({ id }: SectionProps) => {
@@ -28,7 +28,7 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
               {orgList.map(org => (
                 <motion.div
                   key={org.name}
-                  variants={boldFadeIn}
+                  variants={slideInLeft}
                   whileHover={{ y: -5, scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.1)" }}
                   className="bg-slate-50 rounded-xl p-6 text-center transition-all"
                 >
