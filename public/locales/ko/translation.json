@@ -142,7 +142,18 @@
       "6": { "title": "네트워킹의 밤: 바이오·제약 전문가", "location": "그랜드힐 호텔, 전주" },
       "7": { "title": "웨비나: CRISPR 기술의 미래", "location": "온라인" },
       "8": { "title": "JB 바이오 클러스터 오픈하우스", "location": "JB SQUARE 메인 캠퍼스" },
-      "9": { "title": "송년 갈라 및 시상식", "location": "전주시청" }
+      "9": { "title": "송년 갈라 및 시상식", "location": "전주시청" },
+      "category": {
+        "summit": "서밋",
+        "forum": "포럼",
+        "investment": "투자",
+        "workshop": "워크숍",
+        "demo_day": "데모 데이",
+        "networking": "네트워킹",
+        "webinar": "웨비나",
+        "open_house": "오픈 하우스",
+        "gala": "갈라"
+      }
     },
     "companies": {
       "industry": {
