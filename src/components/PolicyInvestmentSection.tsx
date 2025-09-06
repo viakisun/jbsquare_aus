@@ -35,22 +35,22 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
             >
               {activeTab === 'Policies' && (
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                  {policies.map(policy => (
-                    <motion.div variants={cardItem} key={policy.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  {policies.map((policy, index) => (
+                    <motion.div variants={cardItem} key={index} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                       <policy.icon className="w-10 h-10 text-[#FFC940] mb-4" />
-                      <h3 className="font-bold text-xl text-[#0B2D63] mb-2">{policy.title}</h3>
-                      <p className="text-slate-600">{policy.description}</p>
+                      <h3 className="font-bold text-xl text-[#0B2D63] mb-2">{t(policy.titleKey)}</h3>
+                      <p className="text-slate-600">{t(policy.descriptionKey)}</p>
                     </motion.div>
                   ))}
                 </div>
               )}
               {activeTab === 'Investments' && (
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                  {investments.map(inv => (
-                    <motion.div variants={cardItem} key={inv.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all text-center">
-                      <h3 className="font-black text-2xl text-[#0B2D63] mb-2">{inv.title}</h3>
-                      <p className="text-4xl font-bold text-[#FFC940] mb-2">{inv.size}</p>
-                      <p className="text-slate-500 font-semibold">Focus: {inv.focus}</p>
+                  {investments.map((inv, index) => (
+                    <motion.div variants={cardItem} key={index} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all text-center">
+                      <h3 className="font-black text-2xl text-[#0B2D63] mb-2">{t(inv.titleKey)}</h3>
+                      <p className="text-4xl font-bold text-[#FFC940] mb-2">{t(inv.sizeKey)}</p>
+                      <p className="text-slate-500 font-semibold">Focus: {t(inv.focusKey)}</p>
                     </motion.div>
                   ))}
                 </div>

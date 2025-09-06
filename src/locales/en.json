@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "about": "About JB SQUARE",
+    "business": "Business Incubation",
+    "community": "Community",
+    "info": "Information Hub",
+    "lang": "한국어"
+  },
+  "hero": {
+    "title": "The Future of Biotech, Blooming in Jeonbuk",
+    "subtitle": "JB SQUARE: Your comprehensive bio-industry platform for corporate support, networking, and information sharing."
+  },
+  "stats": {
+    "companies": "COMPANIES",
+    "patents": "PATENTS",
+    "investment": "INVESTMENT",
+    "talents": "BIO TALENTS"
+  },
+  "announcements": {
+    "title": "Latest News & Announcements",
+    "subtitle": "Stay informed with the most recent updates from the Jeonbuk bio-industry.",
+    "viewAll": "View All Announcements",
+    "category": {
+      "notice": "Notice",
+      "event": "Event",
+      "program": "Program"
+    }
+  },
+  "events": {
+    "title": "Upcoming Events & Seminars",
+    "subtitle": "Connect with experts and peers at our exclusive bio-industry events.",
+    "viewAll": "View All Events",
+    "category": {
+      "online": "Online",
+      "offline": "Offline"
+    }
+  },
+  "companies": {
+    "title": "Featured Companies",
+    "subtitle": "Discover the innovative biotech companies driving growth in Jeonbuk.",
+    "viewAll": "View Company Directory",
+    "category": {
+      "therapeutics": "Therapeutics",
+      "diagnostics": "Diagnostics",
+      "platform": "Platform Tech"
+    }
+  },
+  "support": {
+    "title": "Our Support Ecosystem",
+    "subtitle": "A network of organizations dedicated to fostering bio-tech growth in the region."
+  },
+  "policy": {
+    "title": "Policy & Investment",
+    "subtitle": "Explore government policies and investment opportunities for your business.",
+    "tabs": {
+      "policies": "Support Policies",
+      "investments": "Investment Funds"
+    }
+  },
+  "tech": {
+    "title": "Leading Technologies & Patents",
+    "subtitle": "Explore cutting-edge technologies and intellectual property from Jeonbuk's innovators.",
+    "viewDetails": "View Details"
+  },
+  "footer": {
+    "navigate": "Navigate",
+    "contact": "Contact Us",
+    "address": "123 Bio-ro, Jeonju, Jeonbuk, 54896, Republic of Korea",
+    "email": "contact@jbsquare.or.kr",
+    "phone": "+82-63-123-4567",
+    "copyright": "© 2025 JB SQUARE. All rights reserved."
+  },
+  "data": {
+    "announcements": {
+      "1": {
+        "title": "JB SQUARE Opens New Bio-Incubation Center",
+        "description": "A new state-of-the-art facility is now open to support early-stage biotech startups with labs and mentoring programs."
+      },
+      "2": {
+        "title": "Jeonbuk Bio-Industry Investment Briefing",
+        "description": "Join us for an online briefing on investment trends and opportunities in the Jeonbuk bio sector."
+      },
+      "3": {
+        "title": "Call for 'Bio-Future' Tech Program Participants",
+        "description": "We are recruiting promising companies for our intensive technology commercialization support program."
+      },
+      "4": {
+        "title": "Global Partnership Agreement with Bio-Cluster Germany",
+        "description": "JB SQUARE signs an MOU with Germany's leading bio-cluster to foster international collaboration."
+      },
+      "5": {
+        "title": "Notice on Corporate Tax Reduction for Bio-Ventures",
+        "description": "Details on the revised tax law benefiting resident bio-venture companies have been released."
+      }
+    },
+    "events": {
+      "1": {
+        "title": "Digital Health Seminar 2025",
+        "description": "Exploring the synergy between AI and new drug development. Industry experts will share their insights."
+      },
+      "2": {
+        "title": "Jeonbuk Bio-Pharma Networking Day",
+        "description": "A great opportunity for local bio-pharma professionals to connect and build collaborative relationships."
+      },
+      "3": {
+        "title": "Patent Strategy Workshop for Startups",
+        "description": "Learn how to build a strong patent portfolio and protect your core technologies in this hands-on workshop."
+      }
+    },
+    "companies": {
+      "1": {
+        "name": "HelixGene",
+        "description": "A leader in gene therapy, developing innovative treatments for rare genetic disorders."
+      },
+      "2": {
+        "name": "BioDx",
+        "description": "Specializing in early-stage cancer detection kits with high accuracy and user convenience."
+      },
+      "3": {
+        "name": "SynthoMab",
+        "description": "Developing a next-generation antibody drug platform using synthetic biology technology."
+      }
+    },
+    "policy": {
+      "policies": {
+        "1": {
+          "title": "Corporate & Local Tax Holiday",
+          "description": "Full exemption on corporate/income tax for 5 years, followed by a 50% reduction for 2 years for investments in Saemangeum."
+        },
+        "2": {
+          "title": "Large-Scale Cash Grants",
+          "description": "Receive direct cash support up to KRW 10-20 billion from provincial and city governments for large investments."
+        },
+        "3": {
+          "title": "Hiring & Training Subsidies",
+          "description": "Up to KRW 1.5 million per employee for hiring and KRW 1 million for training when hiring over 20 local residents."
+        },
+        "4": {
+          "title": "Land & Site Support",
+          "description": "Up to 100% reduction on rent for industrial sites in Foreign Investment Zones (FIZ) for up to 100 years."
+        }
+      },
+      "investments": {
+        "1": {
+          "title": "JB Bio Growth Fund",
+          "size": "₩50B",
+          "focus": "Series A/B"
+        },
+        "2": {
+          "title": "Saemangeum New Industry Fund",
+          "size": "₩100B",
+          "focus": "New Ventures"
+        },
+        "3": {
+          "title": "Global Expansion Fund",
+          "size": "₩30B",
+          "focus": "Overseas Entry"
+        },
+        "4": {
+          "title": "Seed/Angel Fund",
+          "size": "₩10B",
+          "focus": "Early Stage"
+        }
+      }
+    },
+    "tech": {
+      "1": {
+        "title": "Novel CRISPR-Cas9 Variant for Gene Editing",
+        "type": "Patent",
+        "authors": "Kim, J. et al."
+      },
+      "2": {
+        "title": "AI-based Drug Repurposing Platform",
+        "type": "Research",
+        "authors": "Park, S. et al."
+      },
+      "3": {
+        "title": "Organoid Culture Technology for Personalized Medicine",
+        "type": "Patent",
+        "authors": "Lee, H. et al."
+      },
+      "4": {
+        "title": "Microbiome-based Therapeutic Delivery System",
+        "type": "Tech Transfer",
+        "authors": "MedTech Solutions"
+      },
+      "5": {
+        "title": "High-throughput Screening of Natural Compounds",
+        "type": "Research",
+        "authors": "Choi, Y. et al."
+      }
+    }
+  }
+}
