@@ -86,7 +86,7 @@ const AnnouncementsSection = ({ id }: SectionProps) => {
                         {announcement.priority && (
                           <span className="flex items-center text-yellow-500">
                             <Star className="w-4 h-4 fill-current" />
-                            <span className="ml-1 text-xs font-bold">PRIORITY</span>
+                            <span className="ml-1 text-xs font-bold">{t('announcements.priority')}</span>
                           </span>
                         )}
                       </div>

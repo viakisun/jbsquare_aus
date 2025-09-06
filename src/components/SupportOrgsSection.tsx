@@ -23,7 +23,8 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
 
   const groupedOrgs = orgs.reduce((acc, org) => {
-    (acc[org.type] = acc[org.type] || []).push(org);
+    const typeKey = org.typeKey || 'data.orgs.types.unknown';
+    (acc[typeKey] = acc[typeKey] || []).push(org);
     return acc;
   }, {} as Record<string, typeof orgs>);
 
@@ -35,19 +36,19 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
           <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium">{t('supportOrgs.subtitle')}</p>
         </motion.div>
 
-        {Object.entries(groupedOrgs).map(([type, orgList]) => (
-          <div key={type} className="mb-12">
-            <h3 className="text-3xl font-bold text-slate-800 mb-8 border-l-4 border-[#FFC940] pl-4">{type}</h3>
+        {Object.entries(groupedOrgs).map(([typeKey, orgList]) => (
+          <div key={typeKey} className="mb-12">
+            <h3 className="text-3xl font-bold text-slate-800 mb-8 border-l-4 border-[#FFC940] pl-4">{t(typeKey)}</h3>
             <motion.div variants={cardList} initial="initial" whileInView="animate" viewport={{ once: true }} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {orgList.map(org => (
                 <motion.div
-                  key={org.name}
+                  key={org.id}
                   variants={cardItem}
                   whileHover={{ y: -5, scale: 1.05 }}
                   className="bg-white rounded-2xl p-6 flex flex-col text-left transition-all h-full border-2 border-slate-200 shadow-lg hover:shadow-xl"
                 >
-                  <img src={org.logo} alt={`${org.name} Logo`} className="h-12 mb-4 self-start" />
-                  <h4 className="font-black text-xl text-slate-800">{org.name}</h4>
+                  <img src={org.logo} alt={t(org.nameKey)} className="h-12 mb-4 self-start" />
+                  <h4 className="font-black text-xl text-slate-800">{t(org.nameKey)}</h4>
                   <p className="text-slate-600 my-4 flex-grow">{t(org.descriptionKey)}</p>
                   <div className="flex flex-wrap gap-2">
                     {org.tags.map(tag => (

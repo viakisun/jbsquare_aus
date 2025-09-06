@@ -56,7 +56,7 @@ const EventsSection = ({ id }: SectionProps) => {
                     </span>
                   )}
                   <span className="px-3 py-1 bg-white/20 backdrop-blur-md text-white text-xs font-bold rounded-full border border-white/30">
-                    {t('events.attendees', { count: event.attendees })}
+                    {t(event.attendeesKey)}
                   </span>
                 </div>
 

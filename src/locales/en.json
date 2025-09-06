@@ -27,55 +27,55 @@
     }
   },
   "hero": {
-    "title": "The Future of Biotech, Blooming in Jeonbuk",
-    "subtitle": "JB SQUARE: Your comprehensive bio-industry platform for corporate support, networking, and information sharing."
+    "title": "The Future of Biotech,<br/>Blooming in Jeonbuk",
+    "subtitle": "JB SQUARE: Your comprehensive bio-industry platform for corporate support, networking, and information sharing.",
+    "tagline": "Your Gateway to Bio Success",
+    "exploreButton": "Explore Programs",
+    "companyDirectory": "Company Directory"
   },
   "stats": {
-    "companies": "COMPANIES",
-    "patents": "PATENTS",
-    "investment": "INVESTMENT",
-    "talents": "BIO TALENTS"
+    "title": "Jeonbuk's Bio-Industry at a Glance",
+    "subtitle": "A thriving ecosystem of innovation and growth, backed by strong infrastructure and talent.",
+    "companies": "Companies",
+    "institutes": "Institutes",
+    "investment": "Total Investment",
+    "researchers": "Researchers",
+    "patents": "Patents",
+    "partners": "Global Partners"
   },
   "announcements": {
     "title": "Latest News & Announcements",
     "subtitle": "Stay informed with the most recent updates from the Jeonbuk bio-industry.",
     "viewAll": "View All Announcements",
-    "category": {
-      "notice": "Notice",
-      "event": "Event",
-      "program": "Program"
-    }
+    "priority": "Priority"
   },
   "events": {
     "title": "Upcoming Events & Seminars",
     "subtitle": "Connect with experts and peers at our exclusive bio-industry events.",
-    "viewAll": "View All Events",
-    "category": {
-      "online": "Online",
-      "offline": "Offline"
-    }
+    "featured": "Featured Event",
+    "register": "Register Now",
+    "attendees": "{{count}} Attendees"
   },
   "companies": {
     "title": "Featured Companies",
     "subtitle": "Discover the innovative biotech companies driving growth in Jeonbuk.",
-    "viewAll": "View Company Directory",
-    "category": {
-      "therapeutics": "Therapeutics",
-      "diagnostics": "Diagnostics",
-      "platform": "Platform Tech"
-    }
+    "industry": "Industry",
+    "teamSize": "Team Size",
+    "location": "Location",
+    "viewCompany": "View Company",
+    "exploreAll": "Explore All Companies",
+    "logoAlt": "{{name}} logo"
   },
-  "support": {
+  "supportOrgs": {
     "title": "Our Support Ecosystem",
     "subtitle": "A network of organizations dedicated to fostering bio-tech growth in the region."
   },
   "policy": {
     "title": "Policy & Investment",
     "subtitle": "Explore government policies and investment opportunities for your business.",
-    "tabs": {
-      "policies": "Support Policies",
-      "investments": "Investment Funds"
-    }
+    "tab_policies": "Support Policies",
+    "tab_investments": "Investment Funds",
+    "focus_label": "Focus"
   },
   "tech": {
     "title": "Leading Technologies & Patents",
@@ -83,132 +83,153 @@
     "viewDetails": "View Details"
   },
   "footer": {
-    "navigate": "Navigate",
-    "contact": "Contact Us",
-    "address": "123 Bio-ro, Jeonju, Jeonbuk, 54896, Republic of Korea",
-    "email": "contact@jbsquare.or.kr",
-    "phone": "+82-63-123-4567",
+    "subtitle": "Your central hub for advancing bio-industry in the Jeonbuk region through collaboration, innovation, and strategic support.",
+    "stay_updated": "Stay Updated",
+    "email_placeholder": "Enter your email",
+    "subscribe": "Subscribe",
     "copyright": "© 2025 JB SQUARE. All rights reserved."
   },
   "data": {
+    "stats": {
+      "companies": { "number": "150+" },
+      "institutes": { "number": "25" },
+      "investment": { "number": "$2.1B" },
+      "researchers": { "number": "5,000+" },
+      "patents": { "number": "1,200+" },
+      "partners": { "number": "40+" }
+    },
     "announcements": {
-      "1": {
-        "title": "JB SQUARE Opens New Bio-Incubation Center",
-        "description": "A new state-of-the-art facility is now open to support early-stage biotech startups with labs and mentoring programs."
+      "status": {
+        "active": "Active",
+        "open": "Open",
+        "closing_soon": "Closing Soon",
+        "closed": "Closed",
+        "completed": "Completed"
       },
-      "2": {
-        "title": "Jeonbuk Bio-Industry Investment Briefing",
-        "description": "Join us for an online briefing on investment trends and opportunities in the Jeonbuk bio sector."
-      },
-      "3": {
-        "title": "Call for 'Bio-Future' Tech Program Participants",
-        "description": "We are recruiting promising companies for our intensive technology commercialization support program."
-      },
-      "4": {
-        "title": "Global Partnership Agreement with Bio-Cluster Germany",
-        "description": "JB SQUARE signs an MOU with Germany's leading bio-cluster to foster international collaboration."
-      },
-      "5": {
-        "title": "Notice on Corporate Tax Reduction for Bio-Ventures",
-        "description": "Details on the revised tax law benefiting resident bio-venture companies have been released."
+      "category": {
+        "funding": "Funding",
+        "permits": "Permits",
+        "investment": "Investment",
+        "rd": "R&D",
+        "incubation": "Incubation",
+        "grants": "Grants",
+        "partnership": "Partnership",
+        "commercialization": "Commercialization",
+        "recruitment": "Recruitment"
       }
     },
     "events": {
-      "1": {
-        "title": "Digital Health Seminar 2025",
-        "description": "Exploring the synergy between AI and new drug development. Industry experts will share their insights."
+      "category": {
+        "summit": "Summit",
+        "forum": "Forum",
+        "investment": "Investment",
+        "workshop": "Workshop",
+        "demo_day": "Demo Day",
+        "networking": "Networking",
+        "webinar": "Webinar",
+        "open_house": "Open House",
+        "gala": "Gala"
       },
-      "2": {
-        "title": "Jeonbuk Bio-Pharma Networking Day",
-        "description": "A great opportunity for local bio-pharma professionals to connect and build collaborative relationships."
-      },
-      "3": {
-        "title": "Patent Strategy Workshop for Startups",
-        "description": "Learn how to build a strong patent portfolio and protect your core technologies in this hands-on workshop."
-      }
+      "1": { "attendees": "500+ Attendees" },
+      "2": { "attendees": "200+ Attendees" },
+      "3": { "attendees": "150+ Attendees" },
+      "4": { "attendees": "50+ Attendees" },
+      "5": { "attendees": "300+ Attendees" },
+      "6": { "attendees": "250+ Attendees" },
+      "7": "7": { "attendees": "1000+ Attendees" },
+      "8": { "attendees": "400+ Attendees" },
+      "9": { "attendees": "350+ Attendees" }
     },
     "companies": {
+      "industry": {
+        "pharma": "Pharmaceuticals",
+        "medtech": "Medical Technology",
+        "genomics": "Genomics",
+        "agritech": "Agricultural Tech",
+        "ai": "AI & Data",
+        "cell": "Cell Therapy",
+        "food": "Food Science",
+        "biomaterials": "Biomaterials",
+        "enviro": "Environmental Tech"
+      },
       "1": {
-        "name": "HelixGene",
-        "description": "A leader in gene therapy, developing innovative treatments for rare genetic disorders."
+        "name": "BioGenix Korea",
+        "description": "Leading the charge in developing next-generation biopharmaceuticals for rare diseases.",
+        "stage": "Growth Stage", "employees": "150+", "location": "JBFEZ", "valuation": "$120M"
       },
       "2": {
-        "name": "BioDx",
-        "description": "Specializing in early-stage cancer detection kits with high accuracy and user convenience."
+        "name": "MedTech Solutions",
+        "description": "Innovating smart diagnostic tools and medical devices for point-of-care applications.",
+        "stage": "Series B", "employees": "75", "location": "Bio Valley", "valuation": "$85M"
       },
       "3": {
-        "name": "SynthoMab",
-        "description": "Developing a next-generation antibody drug platform using synthetic biology technology."
-      }
-    },
-    "policy": {
-      "policies": {
-        "1": {
-          "title": "Corporate & Local Tax Holiday",
-          "description": "Full exemption on corporate/income tax for 5 years, followed by a 50% reduction for 2 years for investments in Saemangeum."
-        },
-        "2": {
-          "title": "Large-Scale Cash Grants",
-          "description": "Receive direct cash support up to KRW 10-20 billion from provincial and city governments for large investments."
-        },
-        "3": {
-          "title": "Hiring & Training Subsidies",
-          "description": "Up to KRW 1.5 million per employee for hiring and KRW 1 million for training when hiring over 20 local residents."
-        },
-        "4": {
-          "title": "Land & Site Support",
-          "description": "Up to 100% reduction on rent for industrial sites in Foreign Investment Zones (FIZ) for up to 100 years."
-        }
-      },
-      "investments": {
-        "1": {
-          "title": "JB Bio Growth Fund",
-          "size": "₩50B",
-          "focus": "Series A/B"
-        },
-        "2": {
-          "title": "Saemangeum New Industry Fund",
-          "size": "₩100B",
-          "focus": "New Ventures"
-        },
-        "3": {
-          "title": "Global Expansion Fund",
-          "size": "₩30B",
-          "focus": "Overseas Entry"
-        },
-        "4": {
-          "title": "Seed/Angel Fund",
-          "size": "₩10B",
-          "focus": "Early Stage"
-        }
-      }
-    },
-    "tech": {
-      "1": {
-        "title": "Novel CRISPR-Cas9 Variant for Gene Editing",
-        "type": "Patent",
-        "authors": "Kim, J. et al."
-      },
-      "2": {
-        "title": "AI-based Drug Repurposing Platform",
-        "type": "Research",
-        "authors": "Park, S. et al."
-      },
-      "3": {
-        "title": "Organoid Culture Technology for Personalized Medicine",
-        "type": "Patent",
-        "authors": "Lee, H. et al."
+        "name": "GenomeLink",
+        "description": "Personalized medicine through advanced genomic sequencing and data analysis.",
+        "stage": "Series A", "employees": "25", "location": "Innovation District", "valuation": "$45M"
       },
       "4": {
-        "title": "Microbiome-based Therapeutic Delivery System",
-        "type": "Tech Transfer",
-        "authors": "MedTech Solutions"
+        "name": "AgriNova",
+        "description": "Developing sustainable agricultural solutions using biotechnology to improve crop yields.",
+        "stage": "Seed", "employees": "15", "location": "Smart Farm Complex", "valuation": "$15M"
       },
       "5": {
-        "title": "High-throughput Screening of Natural Compounds",
-        "type": "Research",
-        "authors": "Choi, Y. et al."
+        "name": "QuantumLeap AI",
+        "description": "AI-powered drug discovery platform accelerating the research pipeline.",
+        "stage": "Series C", "employees": "250+", "location": "JBFEZ", "valuation": "$500M"
+      },
+      "6": {
+        "name": "Cellular Dynamics Inc.",
+        "description": "Pioneering cell therapy manufacturing and research for regenerative medicine.",
+        "stage": "Pre-IPO", "employees": "180", "location": "Bio Valley", "valuation": "$350M"
+      },
+      "7": {
+        "name": "NutriBiome",
+        "description": "Functional foods and microbiome-based products for improved health and wellness.",
+        "stage": "Series A", "employees": "40", "location": "Innovation District", "valuation": "$30M"
+      },
+      "8": {
+        "name": "EcoPlastics",
+        "description": "Creating biodegradable polymers and sustainable materials from biological sources.",
+        "stage": "Growth Stage", "employees": "90", "location": "Green Tech Park", "valuation": "$95M"
+      },
+      "9": {
+        "name": "AquaPure Systems",
+        "description": "Bio-filtration and environmental remediation technologies for water purification.",
+        "stage": "Seed", "employees": "20", "location": "JBFEZ", "valuation": "$12M"
       }
+    },
+    "orgs": {
+      "types": {
+        "national": "National Agency",
+        "research": "Research Institute",
+        "university": "University"
+      },
+      "tags": {
+        "biz_support": "Biz Support",
+        "rd_support": "R&D Support",
+        "commercialization": "Commercialization",
+        "agritech": "Agritech",
+        "genomics": "Genomics",
+        "clinical_trials": "Clinical Trials",
+        "education": "Education",
+        "medtech": "Medtech",
+        "food_science": "Food Science",
+        "incubation": "Incubation",
+        "biomaterials": "Biomaterials"
+      },
+      "1": { "name": "Jeonbuk Bio-Convergence Industry Promotion Agency (JIF)" },
+      "2": { "name": "Korea Agricultural Technology Promotion Agency (FACT)" },
+      "3": { "name": "Korea Research Institute of Bioscience and Biotechnology (KRIBB) Jeonbuk Branch" },
+      "4": { "name": "Korea Institute of Toxicology (KIT) Jeonbuk Branch" },
+      "5": { "name": "Jeonbuk National University (JBNU)" },
+      "6": { "name": "Wonkwang University (WKU)" },
+      "8": { "name": "Advanced Radiation Technology Institute (ARTI), KAERI" },
+      "9": { "name": "Jeonju University" },
+      "10": { "name": "Jeonbuk Technopark" },
+      "11": { "name": "Carbon Composite Materials Research Institute, KRICT" },
+      "12": { "name": "Kunsan National University" },
+      "13": { "name": "Korea Electronics Technology Institute (KETI) Jeonbuk Headquarters" },
+      "14": { "name": "Korea Institute of Industrial Technology (KITECH) Jeonbuk Headquarters" }
     }
   }
 }

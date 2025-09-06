@@ -23,10 +23,10 @@ const Footer = ({ id }: SectionProps) => {
               {t('footer.subtitle')}
             </p>
             <div className="space-y-4">
-              <h4 className="font-bold text-lg text-white">Stay Updated</h4>
+              <h4 className="font-bold text-lg text-white">{t('footer.stay_updated')}</h4>
               <div className="flex">
-                <input type="email" placeholder="Enter your email" className="bg-white/10 text-white placeholder-white/50 px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-[#FFC940]" />
-                <button className="bg-[#FFC940] text-[#0B2D63] px-4 py-2 rounded-r-lg font-bold">Subscribe</button>
+                <input type="email" placeholder={t('footer.email_placeholder')} className="bg-white/10 text-white placeholder-white/50 px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-[#FFC940]" />
+                <button className="bg-[#FFC940] text-[#0B2D63] px-4 py-2 rounded-r-lg font-bold">{t('footer.subscribe')}</button>
               </div>
             </div>
              <div className="flex space-x-4 mt-8">
