@@ -99,137 +99,79 @@
       "partners": { "number": "40+" }
     },
     "announcements": {
-      "status": {
-        "active": "진행중",
-        "open": "모집중",
-        "closing_soon": "마감 임박",
-        "closed": "마감",
-        "completed": "완료"
-      },
-      "category": {
-        "funding": "자금",
-        "permits": "인허가",
-        "investment": "투자",
-        "rd": "R&D",
-        "incubation": "인큐베이션",
-        "grants": "정부지원",
-        "partnership": "파트너십",
-        "commercialization": "사업화",
-        "recruitment": "채용"
-      }
+      "status": { "active": "진행중", "open": "모집중", "closing_soon": "마감 임박", "closed": "마감", "completed": "완료" },
+      "category": { "funding": "자금", "permits": "인허가", "investment": "투자", "rd": "R&D", "incubation": "인큐베이션", "grants": "정부지원", "partnership": "파트너십", "commercialization": "사업화", "recruitment": "채용" },
+      "1": { "title": "JB SQUARE, 신규 바이오 인큐베이션 센터 개소", "description": "초기 단계 바이오 스타트업을 위한 최첨단 시설과 멘토링 프로그램을 갖춘 새로운 시설이 문을 엽니다." },
+      "2": { "title": "의료기기 신속 허가 프로그램 발표", "description": "혁신 의료 기술의 허가 절차를 가속화하기 위한 새로운 가이드라인이 발표되었습니다." },
+      "3": { "title": "전북 바이오 산업 투자 설명회 - 2025년 4분기", "description": "전북 바이오 분야의 투자 동향과 기회에 대한 온라인 설명회에 참여하세요." },
+      "4": { "title": "'바이오-퓨처' 기술 프로그램 참여 기업 모집", "description": "집중적인 기술 상용화 지원 프로그램에 참여할 유망 기업을 모집합니다." },
+      "5": { "title": "바이오 벤처 입주 공간 현재 신청 가능", "description": "완비된 실험실과 사무 공간을 찾는 스타트업의 신청을 받습니다." },
+      "6": { "title": "지속가능 기술을 위한 그린 바이오 보조금", "description": "친환경 생명공학 솔루션을 개발하는 기업에 정부 보조금이 지원됩니다." },
+      "7": { "title": "독일 바이오 클러스터와 글로벌 파트너십 체결", "description": "JB SQUARE가 국제 협력 증진을 위해 독일의 선도적인 바이오 클러스터와 MOU를 체결했습니다." },
+      "8": { "title": "대학 스핀오프 기업 사업화 지원", "description": "대학 기반 연구 프로젝트가 성공적인 비즈니스로 전환되도록 돕는 신규 프로그램입니다." },
+      "9": { "title": "바이오 산업 인재 채용 박람회", "description": "연례 채용 행사에서 우수한 졸업생 및 경력 전문가들과 만나보세요." }
     },
     "events": {
-      "category": {
-        "summit": "서밋",
-        "forum": "포럼",
-        "investment": "투자설명회",
-        "workshop": "워크숍",
-        "demo_day": "데모데이",
-        "networking": "네트워킹",
-        "webinar": "웨비나",
-        "open_house": "오픈하우스",
-        "gala": "갈라"
-      },
-      "1": { "attendees": "500+ 명 참석" },
-      "2": { "attendees": "200+ 명 참석" },
-      "3": { "attendees": "150+ 명 참석" },
-      "4": { "attendees": "50+ 명 참석" },
-      "5": { "attendees": "300+ 명 참석" },
-      "6": { "attendees": "250+ 명 참석" },
-      "7": { "attendees": "1000+ 명 참석" },
-      "8": { "attendees": "400+ 명 참석" },
-      "9": { "attendees": "350+ 명 참석" }
+      "category": { "summit": "서밋", "forum": "포럼", "investment": "투자설명회", "workshop": "워크숍", "demo_day": "데모데이", "networking": "네트워킹", "webinar": "웨비나", "open_house": "오픈하우스", "gala": "갈라" },
+      "1": { "title": "글로벌 바이오 서밋 2025", "location": "JB 컨벤션 센터", "attendees": "500+ 명 참석" },
+      "2": { "title": "디지털 헬스 포럼", "location": "온라인 웨비나", "attendees": "200+ 명 참석" },
+      "3": { "title": "바이오-엔젤 투자 피칭 데이", "location": "JB SQUARE IR 홀", "attendees": "150+ 명 참석" },
+      "4": { "title": "스타트업을 위한 특허 전략 워크숍", "location": "JB SQUARE 세미나실 3", "attendees": "50+ 명 참석" },
+      "5": { "title": "전북 스타트업 데모데이", "location": "혁신 허브 오디토리움", "attendees": "300+ 명 참석" },
+      "6": { "title": "바이오-제약 전문가 네트워킹의 밤", "location": "그랜드 볼룸", "attendees": "250+ 명 참석" },
+      "7": { "title": "웨비나: AI를 활용한 신약 개발", "location": "온라인", "attendees": "1000+ 명 참석" },
+      "8": { "title": "JB SQUARE 오픈하우스 및 랩 투어", "location": "JB SQUARE 본관", "attendees": "400+ 명 참석" },
+      "9": { "title": "연례 바이오 산업 시상식 갈라", "location": "전주 그랜드 호텔", "attendees": "350+ 명 참석" }
     },
     "companies": {
-      "industry": {
-        "pharma": "제약",
-        "medtech": "의료기기",
-        "genomics": "유전체학",
-        "agritech": "농업 기술",
-        "ai": "AI 및 데이터",
-        "cell": "세포 치료",
-        "food": "식품 과학",
-        "biomaterials": "바이오 소재",
-        "enviro": "환경 기술"
-      },
-      "1": {
-        "name": "바이오제닉스 코리아",
-        "description": "희귀 질환에 대한 차세대 바이오 의약품 개발을 선도합니다.",
-        "stage": "성장 단계", "employees": "150+", "location": "새만금", "valuation": "1,500억 원"
-      },
-      "2": {
-        "name": "메드테크 솔루션스",
-        "description": "현장 진단(POCT)을 위한 스마트 진단 도구 및 의료 기기를 혁신합니다.",
-        "stage": "시리즈 B", "employees": "75", "location": "바이오 밸리", "valuation": "1,000억 원"
-      },
-      "3": {
-        "name": "지놈링크",
-        "description": "첨단 유전체 시퀀싱 및 데이터 분석을 통한 맞춤형 의료를 제공합니다.",
-        "stage": "시리즈 A", "employees": "25", "location": "혁신 지구", "valuation": "500억 원"
-      },
-      "4": {
-        "name": "애그리노바",
-        "description": "생명 공학을 사용하여 작물 수확량을 개선하는 지속 가능한 농업 솔루션을 개발합니다.",
-        "stage": "시드", "employees": "15", "location": "스마트팜 단지", "valuation": "180억 원"
-      },
-      "5": {
-        "name": "퀀텀리프 AI",
-        "description": "연구 파이프라인을 가속화하는 AI 기반 신약 개발 플랫폼입니다.",
-        "stage": "시리즈 C", "employees": "250+", "location": "새만금", "valuation": "6,000억 원"
-      },
-      "6": {
-        "name": "셀룰러 다이나믹스",
-        "description": "재생 의학을 위한 세포 치료제 제조 및 연구를 개척합니다.",
-        "stage": "상장 직전", "employees": "180", "location": "바이오 밸리", "valuation": "4,200억 원"
-      },
-      "7": {
-        "name": "뉴트리바이옴",
-        "description": "건강 증진을 위한 기능성 식품 및 마이크로바이옴 기반 제품을 생산합니다.",
-        "stage": "시리즈 A", "employees": "40", "location": "혁신 지구", "valuation": "350억 원"
-      },
-      "8": {
-        "name": "에코플라스틱스",
-        "description": "생물학적 원료로부터 생분해성 폴리머 및 지속 가능한 소재를 만듭니다.",
-        "stage": "성장 단계", "employees": "90", "location": "그린테크 파크", "valuation": "1,100억 원"
-      },
-      "9": {
-        "name": "아쿠아퓨어 시스템즈",
-        "description": "수질 정화를 위한 바이오 여과 및 환경 정화 기술을 보유하고 있습니다.",
-        "stage": "시드", "employees": "20", "location": "새만금", "valuation": "150억 원"
-      }
+      "industry": { "pharma": "제약", "medtech": "의료기기", "genomics": "유전체학", "agritech": "농업 기술", "ai": "AI 및 데이터", "cell": "세포 치료", "food": "식품 과학", "biomaterials": "바이오 소재", "enviro": "환경 기술" },
+      "1": { "name": "바이오제닉스 코리아", "description": "희귀 질환에 대한 차세대 바이오 의약품 개발을 선도합니다.", "stage": "성장 단계", "employees": "150+", "location": "새만금", "valuation": "1,500억 원" },
+      "2": { "name": "메드테크 솔루션스", "description": "현장 진단(POCT)을 위한 스마트 진단 도구 및 의료 기기를 혁신합니다.", "stage": "시리즈 B", "employees": "75", "location": "바이오 밸리", "valuation": "1,000억 원" },
+      "3": { "name": "지놈링크", "description": "첨단 유전체 시퀀싱 및 데이터 분석을 통한 맞춤형 의료를 제공합니다.", "stage": "시리즈 A", "employees": "25", "location": "혁신 지구", "valuation": "500억 원" },
+      "4": { "name": "애그리노바", "description": "생명 공학을 사용하여 작물 수확량을 개선하는 지속 가능한 농업 솔루션을 개발합니다.", "stage": "시드", "employees": "15", "location": "스마트팜 단지", "valuation": "180억 원" },
+      "5": { "name": "퀀텀리프 AI", "description": "연구 파이프라인을 가속화하는 AI 기반 신약 개발 플랫폼입니다.", "stage": "시리즈 C", "employees": "250+", "location": "새만금", "valuation": "6,000억 원" },
+      "6": { "name": "셀룰러 다이나믹스", "description": "재생 의학을 위한 세포 치료제 제조 및 연구를 개척합니다.", "stage": "상장 직전", "employees": "180", "location": "바이오 밸리", "valuation": "4,200억 원" },
+      "7": { "name": "뉴트리바이옴", "description": "건강 증진을 위한 기능성 식품 및 마이크로바이옴 기반 제품을 생산합니다.", "stage": "시리즈 A", "employees": "40", "location": "혁신 지구", "valuation": "350억 원" },
+      "8": { "name": "에코플라스틱스", "description": "생물학적 원료로부터 생분해성 폴리머 및 지속 가능한 소재를 만듭니다.", "stage": "성장 단계", "employees": "90", "location": "그린테크 파크", "valuation": "1,100억 원" },
+      "9": { "name": "아쿠아퓨어 시스템즈", "description": "수질 정화를 위한 바이오 여과 및 환경 정화 기술을 보유하고 있습니다.", "stage": "시드", "employees": "20", "location": "새만금", "valuation": "150억 원" }
     },
     "orgs": {
-      "types": {
-        "national": "국가 기관",
-        "research": "연구 기관",
-        "university": "대학"
+      "types": { "national": "국가 기관", "research": "연구 기관", "university": "대학" },
+      "tags": { "biz_support": "기업 지원", "rd_support": "R&D 지원", "commercialization": "사업화", "agritech": "농업기술", "genomics": "유전체학", "clinical_trials": "임상시험", "education": "교육", "medtech": "의료기기", "food_science": "식품과학", "incubation": "인큐베이션", "biomaterials": "바이오소재" },
+      "1": { "name": "전북바이오융합산업진흥원 (JIF)", "description": "바이오 기업에 대한 R&D부터 사업화, 마케팅까지 종합 지원합니다." },
+      "2": { "name": "한국농업기술진흥원 (FACT)", "description": "농업 기술 벤처 및 스마트팜 스타트업에 특화된 지원을 제공합니다." },
+      "3": { "name": "한국생명공학연구원 (KRIBB) 전북분원", "description": "유전체학 및 생명 공학 분야의 최첨단 연구를 선도하는 국가 연구 기관입니다." },
+      "4": { "name": "안전성평가연구소 (KIT) 전북분소", "description": "신약 후보 물질에 대한 비임상 시험 서비스 및 안전성 평가를 제공합니다." },
+      "5": { "name": "전북대학교 (JBNU)", "description": "생명 과학 분야의 최고 인재를 양성하고 기초 연구를 수행하는 선도 대학입니다." },
+      "6": { "name": "원광대학교 (WKU)", "description": "의학, 약학, 의료 기술 분야의 강력한 프로그램으로 유명합니다." },
+      "8": { "name": "한국원자력연구원 첨단방사선연구소 (ARTI)", "description": "의료 및 생명 공학 응용을 위한 방사선 융합 기술을 전문으로 합니다." },
+      "9": { "name": "전주대학교", "description": "식품 과학 및 기능성 식품 개발 프로그램에 중점을 둡니다." },
+      "10": { "name": "전북테크노파크", "description": "지역 기술 혁신의 허브로서 인큐베이션 및 비즈니스 지원을 제공합니다." },
+      "11": { "name": "한국화학연구원 탄소자원화연구소", "description": "의료 분야를 위한 첨단 바이오 소재 및 탄소 기반 응용 연구를 수행합니다." },
+      "12": { "name": "군산대학교", "description": "해양 생명 공학 및 농업 과학 분야의 강력한 프로그램을 보유하고 있습니다." },
+      "13": { "name": "한국전자기술연구원 (KETI) 전북본부", "description": "IT와 BT의 융합을 지원하며 스마트 헬스 기기 및 센서에 중점을 둡니다." },
+      "14": { "name": "한국생산기술연구원 (KITECH) 전북본부", "description": "바이오 기업을 위한 공정 기술 및 제조 혁신을 지원합니다." }
+    },
+    "policy": {
+      "policies": {
+        "1": { "title": "법인세 및 지방세 감면", "desc": "새만금 투자 시 법인세/소득세 5년간 100% 면제 후 2년간 50% 감면" },
+        "2": { "title": "대규모 투자 현금 지원", "desc": "대규모 투자 시, 도·시군 정부로부터 최대 100-200억 원의 직접 현금 지원" },
+        "3": { "title": "고용 및 훈련 보조금", "desc": "20명 이상 현지인 고용 시, 1인당 고용 보조금 최대 150만원 및 훈련 보조금 100만원 지원" },
+        "4": { "title": "부지 및 입지 지원", "desc": "외국인 투자지역(FIZ) 내 산업 부지 임대료 최대 100년간 100% 감면" }
       },
-      "tags": {
-        "biz_support": "기업 지원",
-        "rd_support": "R&D 지원",
-        "commercialization": "사업화",
-        "agritech": "농업기술",
-        "genomics": "유전체학",
-        "clinical_trials": "임상시험",
-        "education": "교육",
-        "medtech": "의료기기",
-        "food_science": "식품과학",
-        "incubation": "인큐베이션",
-        "biomaterials": "바이오소재"
-      },
-      "1": { "name": "전북바이오융합산업진흥원 (JIF)" },
-      "2": { "name": "한국농업기술진흥원 (FACT)" },
-      "3": { "name": "한국생명공학연구원 (KRIBB) 전북분원" },
-      "4": { "name": "안전성평가연구소 (KIT) 전북분소" },
-      "5": { "name": "전북대학교 (JBNU)" },
-      "6": { "name": "원광대학교 (WKU)" },
-      "8": { "name": "한국원자력연구원 첨단방사선연구소 (ARTI)" },
-      "9": { "name": "전주대학교" },
-      "10": { "name": "전북테크노파크" },
-      "11": { "name": "한국화학연구원 탄소자원화연구소" },
-      "12": { "name": "군산대학교" },
-      "13": { "name": "한국전자기술연구원 (KETI) 전북본부" },
-      "14": { "name": "한국생산기술연구원 (KITECH) 전북본부" }
+      "investments": {
+        "1": { "title": "JB 바이오 성장 펀드", "size": "500억원", "focus": "시리즈 A/B" },
+        "2": { "title": "새만금 신산업 펀드", "size": "1000억원", "focus": "신규 벤처" },
+        "3": { "title": "글로벌 확장 펀드", "size": "300억원", "focus": "해외 진출" },
+        "4": { "title": "시드/엔젤 펀드", "size": "100억원", "focus": "초기 단계" }
+      }
+    },
+    "tech": {
+      "1": { "title": "유전자 편집을 위한 새로운 CRISPR-Cas9 변이체", "type": "특허", "authors": "김씨 외" },
+      "2": { "title": "AI 기반 약물 재창출 플랫폼", "type": "연구", "authors": "박씨 외" },
+      "3": { "title": "개인 맞춤형 의료를 위한 오가노이드 배양 기술", "type": "특허", "authors": "이씨 외" },
+      "4": { "title": "마이크로바이옴 기반 치료 전달 시스템", "type": "기술이전", "authors": "메드테크 솔루션스" },
+      "5": { "title": "천연 화합물의 고속 스크리닝", "type": "연구", "authors": "최씨 외" }
     }
   }
 }
