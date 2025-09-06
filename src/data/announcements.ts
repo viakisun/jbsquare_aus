@@ -6,7 +6,7 @@ export const announcements = [
     date: "September 1, 2025",
     statusKey: "data.announcements.status.active",
     priority: true,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/funding/400/400",
     categoryKey: "data.announcements.category.funding"
   },
   {
@@ -16,7 +16,7 @@ export const announcements = [
     date: "August 28, 2025",
     statusKey: "data.announcements.status.open",
     priority: false,
-    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/permits/400/400",
     categoryKey: "data.announcements.category.permits"
   },
   {
@@ -26,7 +26,7 @@ export const announcements = [
     date: "August 25, 2025",
     statusKey: "data.announcements.status.closing_soon",
     priority: true,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/investment/400/400",
     categoryKey: "data.announcements.category.investment"
   },
   {
@@ -36,7 +36,7 @@ export const announcements = [
     date: "August 22, 2025",
     statusKey: "data.announcements.status.open",
     priority: false,
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/rd/400/400",
     categoryKey: "data.announcements.category.rd"
   },
   {
@@ -46,7 +46,7 @@ export const announcements = [
     date: "August 20, 2025",
     statusKey: "data.announcements.status.active",
     priority: true,
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/incubation/400/400",
     categoryKey: "data.announcements.category.incubation"
   },
   {
@@ -56,7 +56,7 @@ export const announcements = [
     date: "August 15, 2025",
     statusKey: "data.announcements.status.closed",
     priority: false,
-    image: "https://images.unsplash.com/photo-1581092580423-9c9780b6294a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/grants/400/400",
     categoryKey: "data.announcements.category.grants"
   },
   {
@@ -66,7 +66,7 @@ export const announcements = [
     date: "August 10, 2025",
     statusKey: "data.announcements.status.active",
     priority: false,
-    image: "https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/partnership/400/400",
     categoryKey: "data.announcements.category.partnership"
   },
   {
@@ -76,7 +76,7 @@ export const announcements = [
     date: "August 5, 2025",
     statusKey: "data.announcements.status.open",
     priority: false,
-    image: "https://images.unsplash.com/photo-1615829239823-382d2b591248?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/commercialization/400/400",
     categoryKey: "data.announcements.category.commercialization"
   },
   {
@@ -86,7 +86,7 @@ export const announcements = [
     date: "July 30, 2025",
     statusKey: "data.announcements.status.completed",
     priority: true,
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://picsum.photos/seed/recruitment/400/400",
     categoryKey: "data.announcements.category.recruitment"
   }
 ];
