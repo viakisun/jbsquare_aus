@@ -211,6 +211,20 @@
       "12": { "desc": "A university focused on marine biotechnology and agricultural sciences." },
       "13": { "desc": "A leading research institute for electronics and information technology convergence." },
       "14": { "desc": "A research institute focused on developing industrial production technologies." }
+    },
+    "policy": {
+      "policies": {
+        "1": { "title": "Corporate & Income Tax Exemption", "desc": "100% tax exemption for 3 years and a 50% reduction for the following 2 years for companies in the Investment Promotion Zone." },
+        "2": { "title": "Local Tax Exemption", "desc": "100% exemption on acquisition tax and property tax for up to 15 years." },
+        "3": { "title": "One-Stop Administrative Service", "desc": "A dedicated One-Stop Support Center handles all administrative procedures from investment to permits." },
+        "4": { "title": "National R&D Grant Priority", "desc": "Priority consideration and additional points for national R&D funding projects." }
+      },
+      "investments": {
+        "1": { "title": "Jeonbuk Bio-Venture Fund", "size": "$50M", "focus": "Seed & Series A" },
+        "2": { "title": "Saemangeum Global Expansion Fund", "size": "$100M", "focus": "Series B & C" },
+        "3": { "title": "Agritech & FoodTech Innovation Fund", "size": "$30M", "focus": "Agritech & Food Science" },
+        "4": { "title": "National Government Matching Fund", "size": "$250M", "focus": "All Stages" }
+      }
     }
   }
 }

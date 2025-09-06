@@ -1,23 +1,26 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import HttpBackend from 'i18next-http-backend';
+import enTranslation from './locales/en.json';
+import koTranslation from './locales/ko.json';
 
 i18n
-  .use(HttpBackend)
   .use(initReactI18next)
   .init({
-    lng: 'ko', // default language
-    fallbackLng: 'en', // fallback language
-    ns: ['translation'],
-    defaultNS: 'translation',
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    resources: {
+      en: {
+        translation: enTranslation,
+      },
+      ko: {
+        translation: koTranslation,
+      },
     },
+    lng: 'ko',
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false,
     },
     react: {
-      useSuspense: true,
+      useSuspense: false,
     }
   });
 

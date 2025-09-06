@@ -1,15 +1,47 @@
 import { FileText, TrendingUp, Rocket, Users } from 'lucide-react';
 
 export const policies = [
-  { icon: FileText, title: "Foreign Investment Zone Act", description: "Special economic zone benefits for foreign-invested companies." },
-  { icon: TrendingUp, title: "Tax Reduction for High-Tech Biz", description: "Significant corporate and income tax reductions for designated high-tech companies." },
-  { icon: Rocket, title: "R&D Grant Matching", description: "Government grants that match private R&D investments up to 200%." },
-  { icon: Users, title: "Employment Subsidies", description: "Financial support for hiring local talent and researchers." }
+  {
+    icon: FileText,
+    titleKey: "data.policy.policies.1.title",
+    descriptionKey: "data.policy.policies.1.desc"
+  },
+  {
+    icon: TrendingUp,
+    titleKey: "data.policy.policies.2.title",
+    descriptionKey: "data.policy.policies.2.desc"
+  },
+  {
+    icon: Rocket,
+    titleKey: "data.policy.policies.3.title",
+    descriptionKey: "data.policy.policies.3.desc"
+  },
+  {
+    icon: Users,
+    titleKey: "data.policy.policies.4.title",
+    descriptionKey: "data.policy.policies.4.desc"
+  }
 ];
 
 export const investments = [
-  { title: "JB Bio-Venture Fund I", size: "$50M", focus: "Seed & Series A" },
-  { title: "Global Expansion Fund", size: "$100M", focus: "Series B & C" },
-  { title: "Agritech Innovation Fund", size: "$30M", focus: "Agritech & Food Science" },
-  { title: "Government Matching Fund", size: "$250M", focus: "All Stages" },
+  {
+    titleKey: "data.policy.investments.1.title",
+    sizeKey: "data.policy.investments.1.size",
+    focusKey: "data.policy.investments.1.focus"
+  },
+  {
+    titleKey: "data.policy.investments.2.title",
+    sizeKey: "data.policy.investments.2.size",
+    focusKey: "data.policy.investments.2.focus"
+  },
+  {
+    titleKey: "data.policy.investments.3.title",
+    sizeKey: "data.policy.investments.3.size",
+    focusKey: "data.policy.investments.3.focus"
+  },
+  {
+    titleKey: "data.policy.investments.4.title",
+    sizeKey: "data.policy.investments.4.size",
+    focusKey: "data.policy.investments.4.focus"
+  },
 ];

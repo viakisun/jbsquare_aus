@@ -30,10 +30,10 @@ const TechPatentsSection = ({ id }: SectionProps) => {
                   <span className={`inline-block px-3 py-1 text-sm font-bold rounded-full mb-2 ${
                     item.type === 'Patent' ? 'bg-blue-100 text-blue-800' :
                     item.type === 'Research' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
-                  }`}>{item.type}</span>
+                  }`}>{t(item.typeKey)}</span>
                   <h3 className="text-lg font-bold text-[#0B2D63]">{t(item.titleKey)}</h3>
                 </div>
-                <p className="text-slate-600 font-medium">{item.authors}</p>
+                <p className="text-slate-600 font-medium">{t(item.authorsKey)}</p>
                 <p className="text-slate-500">{item.date}</p>
                 <div className="text-right">
                   <button className="px-6 py-2 border-2 border-slate-300 text-slate-700 font-bold rounded-lg hover:bg-[#0B2D63] hover:text-white hover:border-[#0B2D63] transition-all">
