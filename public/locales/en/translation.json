@@ -199,17 +199,18 @@
         "biomaterials": "Biomaterials"
       },
       "1": { "desc": "A central institution for the Jeonbuk bio-industry, supporting commercialization and corporate growth." },
-      "2": { "desc": "Specializing in the commercialization and transfer of agricultural technology." },
+      "2": { "desc": "A government-affiliated institution dedicated to the commercialization and transfer of agricultural technology." },
       "3": { "desc": "A leading national research institute focused on biotechnology and life sciences." },
       "4": { "desc": "A specialized institute for non-clinical and safety evaluation of new drugs." },
       "5": { "desc": "A leading regional university fostering talent in life sciences and biotechnology." },
       "6": { "desc": "A major university with strengths in medicine, pharmacy, and bio-related fields." },
-      "7": { "desc": "An institute supporting technology development and commercialization for SMEs." },
       "8": { "desc": "Researching advanced radiation technology and its application in biotechnology." },
       "9": { "desc": "A university fostering talent in fields like alternative foods and food science." },
       "10": { "desc": "A regional innovation hub supporting technology-based companies." },
       "11": { "desc": "Researching carbon resource utilization and eco-friendly chemical processes." },
-      "12": { "desc": "A university focused on marine biotechnology and agricultural sciences." }
+      "12": { "desc": "A university focused on marine biotechnology and agricultural sciences." },
+      "13": { "desc": "A leading research institute for electronics and information technology convergence." },
+      "14": { "desc": "A research institute focused on developing industrial production technologies." }
     }
   }
 }
