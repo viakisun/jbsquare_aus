@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-// import HeroSection from './components/HeroSection';
+import HeroSection from './components/HeroSection';
 // import StatsSection from './components/StatsSection';
 // import AnnouncementsSection from './components/AnnouncementsSection';
 // import EventsSection from './components/EventsSection';
@@ -14,8 +14,8 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      {/* <HeroSection id="jbsquare" />
-      <StatsSection />
+      <HeroSection id="jbsquare" />
+      {/* <StatsSection />
       <AnnouncementsSection id="announcements" />
       <EventsSection id="news" />
       <CompaniesSection id="companies" />
