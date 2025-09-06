@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
 import { policies, investments } from '../data/policy';
-import { fadeInUp } from './animations';
+import { cardList, cardItem } from './animations';
 
 const PolicyInvestmentSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
@@ -11,17 +11,11 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
 
   return (
     <section id={id} className="py-24 bg-slate-50">
-      <motion.div
-        variants={fadeInUp}
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true }}
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center mb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
           <h2 className="text-5xl font-black text-[#0B2D63] mb-6" dangerouslySetInnerHTML={{ __html: t('policy.title') }}></h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium">{t('policy.subtitle')}</p>
-        </div>
+        </motion.div>
 
         <div className="flex justify-center mb-10">
           <div className="bg-slate-200 p-2 rounded-xl flex space-x-2">
@@ -34,37 +28,37 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              variants={cardList}
             >
               {activeTab === 'Policies' && (
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                   {policies.map(policy => (
-                    <div key={policy.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                    <motion.div variants={cardItem} key={policy.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                       <policy.icon className="w-10 h-10 text-[#FFC940] mb-4" />
                       <h3 className="font-bold text-xl text-[#0B2D63] mb-2">{policy.title}</h3>
                       <p className="text-slate-600">{policy.description}</p>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
               )}
               {activeTab === 'Investments' && (
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                   {investments.map(inv => (
-                    <div key={inv.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all text-center">
+                    <motion.div variants={cardItem} key={inv.title} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all text-center">
                       <h3 className="font-black text-2xl text-[#0B2D63] mb-2">{inv.title}</h3>
                       <p className="text-4xl font-bold text-[#FFC940] mb-2">{inv.size}</p>
                       <p className="text-slate-500 font-semibold">Focus: {inv.focus}</p>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
               )}
             </motion.div>
           </AnimatePresence>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };

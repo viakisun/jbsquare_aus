@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { fadeInUp, staggerParent } from './animations';
+import { cardList, cardItem } from './animations';
 import { stats } from '../data/stats';
 
 const AnimatedNumber = ({ value }: { value: string }) => {
@@ -52,7 +52,7 @@ const StatsSection = () => {
         </motion.div>
 
         <motion.div
-          variants={staggerParent}
+          variants={cardList}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
@@ -61,7 +61,7 @@ const StatsSection = () => {
           {stats.map((stat) => (
             <motion.div
               key={stat.key}
-              variants={fadeInUp}
+              variants={cardItem}
               whileHover={{ scale: 1.05, y: -5 }}
               className={`text-center p-8 ${stat.bg} rounded-2xl shadow-xl hover:shadow-2xl transition-all border-2 border-white`}
             >
