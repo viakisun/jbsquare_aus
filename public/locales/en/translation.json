@@ -75,5 +75,85 @@
   "footer": {
     "subtitle": "Asia's premier biotechnology ecosystem connecting global innovation with world-class research excellence.",
     "copyright": "&copy; 2025 JB SQUARE. All Rights Reserved."
+  },
+  "data": {
+    "announcements": {
+      "1": {
+        "title": "2025 Biotech Innovation Fund Now Open",
+        "description": "Revolutionary government funding program for next-gen biotech startups."
+      },
+      "2": {
+        "title": "New Research Facility Permits Available",
+        "description": "Streamlined permitting process for Bio Valley research facilities."
+      },
+      "3": {
+        "title": "Foreign Investment Tax Incentives Extended",
+        "description": "Extended deadline for international investment tax benefits."
+      },
+      "4": {
+        "title": "Call for R&D Proposals: AI in Drug Discovery",
+        "description": "Seeking innovative R&D projects leveraging AI for drug discovery."
+      },
+      "5": {
+        "title": "JB SQUARE Incubation Program - Fall 2025 Cohort",
+        "description": "Applications are now open for our world-class startup incubation program."
+      },
+      "6": {
+        "title": "Clinical Trial Support Grant Applications",
+        "description": "The application period for the 2025 clinical trial grants has now closed."
+      },
+      "7": {
+        "title": "Global Partnership Program with MassBio",
+        "description": "Announcing a new strategic partnership with MassBio to foster global collaboration."
+      },
+      "8": {
+        "title": "Smart Farm Technology Commercialization Support",
+        "description": "Support for commercializing innovative smart farm and agritech solutions."
+      },
+      "9": {
+        "title": "Bio-Cluster Tenant Recruitment Fair 2025",
+        "description": "Recap of the successful tenant recruitment fair for the new Bio-Cluster facilities."
+      }
+    },
+    "events": {
+      "1": { "title": "Jeonbuk BioTech Innovation Summit 2025", "location": "JBFEZ Convention Center" },
+      "2": { "title": "CEO Forum: Digital Health Revolution", "location": "Bio Valley Complex" },
+      "3": { "title": "International Investment Roundtable", "location": "Jeonju Chamber of Commerce" },
+      "4": { "title": "Workshop: GMP Compliance for Startups", "location": "JB SQUARE Incubation Center" },
+      "5": { "title": "Agritech Demo Day 2025", "location": "Jeonbuk National University" },
+      "6": { "title": "Networking Night: Bio-Pharma Professionals", "location": "The Grand Hill Hotel, Jeonju" },
+      "7": { "title": "Webinar: The Future of CRISPR Technology", "location": "Online" },
+      "8": { "title": "JB Bio-Cluster Open House", "location": "JB SQUARE Main Campus" },
+      "9": { "title": "End-of-Year Gala & Awards Ceremony", "location": "Jeonju City Hall" }
+    },
+    "companies": {
+      "industry": {
+        "pharma": "Pharmaceuticals",
+        "medtech": "Medical Devices",
+        "genomics": "Genomics",
+        "agritech": "Agritech",
+        "ai": "AI & Health",
+        "cell": "Cell Therapy",
+        "food": "Food Science",
+        "biomaterials": "Biomaterials",
+        "enviro": "Environmental Bio"
+      },
+      "1": { "description": "Next-generation cancer therapeutics development." },
+      "2": { "description": "AI-powered diagnostic medical device manufacturing." },
+      "3": { "description": "Personalized genomic analysis and therapeutics." },
+      "4": { "description": "Developing sustainable crop enhancement solutions." },
+      "5": { "description": "AI platform for predictive diagnostics and healthcare analytics." },
+      "6": { "description": "Pioneering stem cell therapies for regenerative medicine." },
+      "7": { "description": "Microbiome-based personalized nutrition solutions." },
+      "8": { "description": "Manufacturing biodegradable plastics from organic waste." },
+      "9": { "description": "Developing microbial solutions for water purification." }
+    },
+    "tech": {
+      "1": { "title": "Novel CRISPR-Cas12 Variant for Enhanced Gene Editing" },
+      "2": { "title": "Biocompatible Hydrogels for 3D Organoid Culture" },
+      "3": { "title": "AI-Driven Platform for Predicting Protein Folding" },
+      "4": { "title": "License for Continuous Glucose Monitoring Sensor Tech" },
+      "5": { "title": "Microbiome Modulation for Immune-Oncology Therapies" }
+    }
   }
 }

@@ -6,9 +6,10 @@ The page features a rich, multi-section layout with detailed mock data, dropdown
 
 ## Key Features & Sections
 
--   **Component-Based Architecture:** All UI sections are refactored into their own separate components for better maintainability.
--   **Internationalization (i18n):** Fully bilingual support for English and Korean, implemented with `react-i18next`.
--   **Dynamic Navigation:** A functional dropdown navigation menu that is also translated.
+-   **Component-Based Architecture:** All UI sections are refactored into their own separate components (`src/components`) for maintainability.
+-   **Separated & Translated Mock Data:** Mock data is separated into a `src/data` directory and is fully internationalized using `react-i18next`, changing with the language selection.
+-   **Internationalization (i18n):** Fully bilingual (English/Korean) support.
+-   **Enhanced Animations:** Dynamic animations, including number count-ups and enhanced hover effects, have been added using `framer-motion`.
 -   **Expanded Content:** All sections now feature a larger, more realistic set of mock data.
 -   **New Sections:** Includes newly added sections for Support Ecosystem, Policy & Investment, and Research & Patents.
 -   **Enhanced Footer:** The footer is now more functional with a newsletter form and social media links.

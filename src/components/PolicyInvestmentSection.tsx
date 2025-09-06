@@ -1,26 +1,12 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FileText, TrendingUp, Rocket, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
+import { policies, investments } from '../data/policy';
 
 const PolicyInvestmentSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('Policies');
-
-  const policies = [
-    { icon: FileText, title: "Foreign Investment Zone Act", description: "Special economic zone benefits for foreign-invested companies." },
-    { icon: TrendingUp, title: "Tax Reduction for High-Tech Biz", description: "Significant corporate and income tax reductions for designated high-tech companies." },
-    { icon: Rocket, title: "R&D Grant Matching", description: "Government grants that match private R&D investments up to 200%." },
-    { icon: Users, title: "Employment Subsidies", description: "Financial support for hiring local talent and researchers." }
-  ];
-
-  const investments = [
-    { title: "JB Bio-Venture Fund I", size: "$50M", focus: "Seed & Series A" },
-    { title: "Global Expansion Fund", size: "$100M", focus: "Series B & C" },
-    { title: "Agritech Innovation Fund", size: "$30M", focus: "Agritech & Food Science" },
-    { title: "Government Matching Fund", size: "$250M", focus: "All Stages" },
-  ];
 
   return (
     <section id={id} className="py-24 bg-slate-50">
