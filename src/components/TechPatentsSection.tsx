@@ -44,7 +44,7 @@ const TechPatentsSection = ({ id }: SectionProps) => {
             ))}
           </motion.div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
