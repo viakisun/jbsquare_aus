@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
 import { policies, investments } from '../data/policy';
-import { slideInRight } from './animations';
+import { fadeInUp } from './animations';
 
 const PolicyInvestmentSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
@@ -12,7 +12,7 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
   return (
     <section id={id} className="py-24 bg-slate-50">
       <motion.div
-        variants={slideInRight}
+        variants={fadeInUp}
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
