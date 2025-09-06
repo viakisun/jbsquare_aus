@@ -1,10 +1,30 @@
 {
   "nav": {
-    "about": "About JB SQUARE",
-    "business": "Business Incubation",
-    "community": "Community",
-    "info": "Information Hub",
-    "lang": "한국어"
+    "lang_en": "ENGLISH",
+    "lang_ko": "한국어",
+    "getStarted": "Get Started",
+    "about": {
+      "title": "About JB SQUARE",
+      "intro": "Introduction",
+      "vision": "Vision & CI",
+      "orgs": "Support Orgs"
+    },
+    "business": {
+      "title": "Business Incubation",
+      "support": "Startup Support",
+      "investment": "Investment Info"
+    },
+    "community": {
+      "title": "Community",
+      "announcements": "Announcements",
+      "events": "Events & Seminars"
+    },
+    "info": {
+      "title": "Information Hub",
+      "companies": "Company Directory",
+      "tech": "Tech & Patents",
+      "policy": "Policy Data"
+    }
   },
   "hero": {
     "title": "The Future of Biotech, Blooming in Jeonbuk",
