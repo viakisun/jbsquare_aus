@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronRight, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { boldFadeIn, staggerParent } from './animations';
+import { slideInLeft, staggerParent } from './animations';
 import { announcements } from '../data/announcements';
 
 const AnnouncementsSection = ({ id }: SectionProps) => {
@@ -35,7 +35,7 @@ const AnnouncementsSection = ({ id }: SectionProps) => {
           {announcements.map((announcement) => (
             <motion.div
               key={announcement.id}
-              variants={boldFadeIn}
+              variants={slideInLeft}
               whileHover={{ scale: 1.02, y: -5 }}
               className={`rounded-2xl border-3 hover:shadow-2xl transition-all cursor-pointer overflow-hidden ${
                 announcement.priority

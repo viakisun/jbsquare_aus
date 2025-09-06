@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
 import { policies, investments } from '../data/policy';
+import { slideInRight } from './animations';
 
 const PolicyInvestmentSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
@@ -10,11 +11,17 @@ const PolicyInvestmentSection = ({ id }: SectionProps) => {
 
   return (
     <section id={id} className="py-24 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
+      <motion.div
+        variants={slideInRight}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center mb-16">
           <h2 className="text-5xl font-black text-[#0B2D63] mb-6" dangerouslySetInnerHTML={{ __html: t('policy.title') }}></h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium">{t('policy.subtitle')}</p>
-        </motion.div>
+        </div>
 
         <div className="flex justify-center mb-10">
           <div className="bg-slate-200 p-2 rounded-xl flex space-x-2">
