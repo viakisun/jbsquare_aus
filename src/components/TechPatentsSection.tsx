@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { SectionProps } from './types';
+import type { SectionProps } from './types';
 import { boldFadeIn, staggerBold } from './animations';
 
 const TechPatentsSection = ({ id }: SectionProps) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { SectionProps } from './types';
+import type { SectionProps } from './types';
 import { boldFadeIn, staggerBold } from './animations';
 
 const EventsSection = ({ id }: SectionProps) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Rocket, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { SectionProps } from './types';
+import type { SectionProps } from './types';
 
 const HeroSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FileText, TrendingUp, Rocket, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { SectionProps } from './types';
+import type { SectionProps } from './types';
 
 const PolicyInvestmentSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
