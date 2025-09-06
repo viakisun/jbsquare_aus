@@ -1,45 +1,65 @@
-# JB SQUARE - Bio-Innovation Hub
+# JB SQUARE Bio-Portal (v0.1)
 
-This project is a comprehensive, high-fidelity, and responsive landing page for "JB SQUARE," a fictional bio-innovation hub. It has been significantly expanded from a single component into a full-fledged, runnable web application built with React, TypeScript, and Vite.
+This repository contains the source code for the JB SQUARE Bio-Portal, a comprehensive, single-page application designed to serve as a central hub for the Jeonbuk bio-industry.
 
-The page features a rich, multi-section layout with detailed mock data, dropdown navigation, and a polished, modern design aesthetic.
+The application is built with a modern tech stack and features a rich, responsive, and fully internationalized user interface.
 
-## Key Features & Sections
+## Key Features
 
--   **Component-Based Architecture:** All UI sections are refactored into their own separate components (`src/components`) for maintainability.
--   **Separated & Translated Mock Data:** Mock data is separated into a `src/data` directory and is fully internationalized using `react-i18next`, changing with the language selection.
--   **Internationalization (i18n):** Fully bilingual (English/Korean) support.
--   **Enhanced Animations:** Dynamic animations, including number count-ups and enhanced hover effects, have been added using `framer-motion`.
--   **Expanded Content:** All sections now feature a larger, more realistic set of mock data.
--   **New Sections:** Includes newly added sections for Support Ecosystem, Policy & Investment, and Research & Patents.
--   **Enhanced Footer:** The footer is now more functional with a newsletter form and social media links.
+- **Modern SPA:** Built with Vite, React, and TypeScript for a fast and seamless user experience.
+- **Fully Internationalized:** Complete bilingual support for English and Korean, including all dynamic content.
+- **Component-Based UI:** A clean and maintainable architecture with distinct components for each section (Hero, Announcements, Events, etc.).
+- **Advanced Animations:** Fluid animations powered by Framer Motion to enhance user engagement.
+- **Realistic & Researched Content:** The Policy and Support Organization sections feature data based on real-world information for the Jeonbuk region.
 
-## Technologies Used
+## Tech Stack
 
--   **Framework:** React
--   **Language:** TypeScript
--   **Build Tool:** Vite
--   **Styling:** Tailwind CSS (v3 - Stable)
--   **Internationalization:** `react-i18next` & `i18next`
--   **Animations:** Framer Motion
--   **Icons:** Lucide React
+- **Framework:** React v18
+- **Language:** TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Internationalization:** react-i18next
+- **Icons:** Lucide React
 
-## How to Run the Project
+## Getting Started
 
-### 1. Install Dependencies
+### Prerequisites
 
-Navigate to the project's root directory in your terminal and run:
+- Node.js (v18 or later recommended)
+- npm
 
-```bash
-npm install
-```
+### Installation
 
-### 2. Start the Development Server
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd <project-directory>
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-After installation, run the following command:
+### Running the Development Server
+
+To run the application locally, use the following command:
 
 ```bash
 npm run dev
 ```
 
-This will start the development server, typically on `http://localhost:5173`. Open this URL in your browser to view the live application. You can switch between English and Korean using the language toggle in the header.
+The development server will start, and the application will be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production-ready build of the application, run:
+
+```bash
+npm run build
+```
+
+The optimized static files will be placed in the `dist/` directory.

@@ -1,4 +1,4 @@
-# Release v1.0.0 - JB SQUARE Bio-Portal
+# Release v0.1 - JB SQUARE Bio-Portal
 
 **Release Date:** September 6, 2025
 
