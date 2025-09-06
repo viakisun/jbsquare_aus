@@ -751,7 +751,7 @@ const Footer = () => {
 };
 
 // Main App Component
-const JeonbukBioPortal = () => {
+const App = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
@@ -765,4 +765,4 @@ const JeonbukBioPortal = () => {
   );
 };
 
-export default JeonbukBioPortal;
+export default App;
