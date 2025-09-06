@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "소개",
+    "opportunities": "기회",
+    "information": "정보",
+    "news": "소식",
+    "support": "고객지원",
+    "jbsquare": "JB-Square (바이오 클러스터)",
+    "biovalley": "지역 바이오밸리",
+    "supportorgs": "지원기관 현황",
+    "investment": "정책 · 투자 안내",
+    "announcements": "공고",
+    "bizsupport": "기업 지원",
+    "companies": "기업 정보",
+    "patents": "기술 및 특허",
+    "contact": "알림 및 문의",
+    "newsletter": "뉴스레터 구독",
+    "lang_ko": "한국어",
+    "lang_en": "ENGLISH",
+    "getStarted": "시작하기"
+  },
+  "hero": {
+    "tagline": "JB SQUARE에 오신 것을 환영합니다",
+    "title": "바이오 혁신의 심장",
+    "subtitle": "JB SQUARE: 연구, 개발, 투자를 위한 아시아 최고의 바이오 클러스터입니다.",
+    "exploreButton": "기회 탐색하기",
+    "companyDirectory": "기업 디렉토리"
+  },
+  "stats": {
+    "title": "혁신의 동력",
+    "subtitle": "전례 없는 규모와 영향력으로 바이오 기술의 미래를 만들어갑니다",
+    "companies": "바이오 기업",
+    "institutes": "연구 기관",
+    "investment": "연간 투자액",
+    "researchers": "연구 인력",
+    "patents": "특허 출원",
+    "partners": "글로벌 파트너"
+  },
+  "announcements": {
+    "title": "최신 기회",
+    "subtitle": "대한민국 바이오 기술 생태계의 판도를 바꾸는 기회를 놓치지 마세요",
+    "viewAll": "모든 기회 보기"
+  },
+  "events": {
+    "title": "다가오는 행사",
+    "subtitle": "세계적인 수준의 바이오 행사에서 업계 리더들과 교류하고 획기적인 기회를 발견하세요",
+    "featured": "주요 행사",
+    "attendees": "{{count}} 명 참석",
+    "register": "지금 등록하기"
+  },
+  "companies": {
+    "title": "혁신 기업들",
+    "subtitle": "대한민국에서 헬스케어와 생명 과학을 혁신하는 기업들을 만나보세요",
+    "industry": "산업 분야",
+    "teamSize": "팀 규모",
+    "location": "소재지",
+    "viewCompany": "기업 정보 보기",
+    "exploreAll": "모든 기업 탐색"
+  },
+  "supportOrgs": {
+    "title": "지원 생태계",
+    "subtitle": "우리의 성장을 견인하는 정부 기관, 대학, 연구소의 협력 네트워크입니다."
+  },
+  "policy": {
+    "title": "정책 및 투자",
+    "subtitle": "여러분의 성공을 가속화할 유리한 정책과 강력한 투자 프로그램입니다.",
+    "tab_policies": "주요 정책",
+    "tab_investments": "투자 프로그램"
+  },
+  "tech": {
+    "title": "연구 및 특허",
+    "subtitle": "JB SQUARE에서 비롯된 최첨단 지적 재산과 연구를 탐색하세요.",
+    "viewDetails": "상세 정보 보기"
+  },
+  "footer": {
+    "subtitle": "글로벌 혁신과 세계적 수준의 연구 우수성을 연결하는 아시아 최고의 바이오 기술 생태계입니다.",
+    "copyright": "&copy; 2025 JB SQUARE. 모든 권리 보유."
+  }
+}
