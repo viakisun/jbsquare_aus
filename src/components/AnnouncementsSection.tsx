@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronRight, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { boldFadeIn, staggerBold } from './animations';
+import { boldFadeIn, staggerParent } from './animations';
 import { announcements } from '../data/announcements';
 
 const AnnouncementsSection = ({ id }: SectionProps) => {
@@ -26,7 +26,7 @@ const AnnouncementsSection = ({ id }: SectionProps) => {
         </motion.div>
 
         <motion.div
-          variants={staggerBold}
+          variants={staggerParent}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}

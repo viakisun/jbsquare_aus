@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { boldFadeIn, staggerBold } from './animations';
+import { boldFadeIn, staggerParent } from './animations';
 import { stats } from '../data/stats';
 
 const AnimatedNumber = ({ value }: { value: string }) => {
@@ -52,7 +52,7 @@ const StatsSection = () => {
         </motion.div>
 
         <motion.div
-          variants={staggerBold}
+          variants={staggerParent}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
