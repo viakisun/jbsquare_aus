@@ -2,16 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { SectionProps } from './types';
 import { Linkedin, Twitter, Facebook } from 'lucide-react';
+import { useNavItems } from '../hooks/useNavItems';
 
 const Footer = ({ id }: SectionProps) => {
   const { t } = useTranslation();
+  const navItems = useNavItems();
 
-  const navItems = [
-    { title: t('nav.about'), key: 'about', subItems: [ { name: t('nav.jbsquare'), href: '#jbsquare' }, { name: t('nav.biovalley'), href: '#biovalley' }, { name: t('nav.supportorgs'), href: '#supportorgs' } ] },
-    { title: t('nav.opportunities'), key: 'opportunities', subItems: [ { name: t('nav.investment'), href: '#investment' }, { name: t('nav.announcements'), href: '#announcements' }, { name: t('nav.bizsupport'), href: '#bizsupport' } ] },
-    { title: t('nav.information'), key: 'information', subItems: [ { name: t('nav.companies'), href: '#companies' }, { name: t('nav.patents'), href: '#patents' } ] },
-    { title: t('nav.news'), key: 'news', subItems: [ { name: t('nav.news'), href: '#news' }, { name: t('nav.community'), href: '#community' } ] }
-  ];
+  const footerLinkGroups = navItems.filter(item => item.key !== 'support');
 
   return (
     <footer id={id} className="bg-[#0B2D63] text-white relative overflow-hidden">
@@ -39,7 +36,7 @@ const Footer = ({ id }: SectionProps) => {
               </div>
           </div>
 
-          {navItems.map(section => (
+          {footerLinkGroups.map(section => (
             <div key={section.key}>
               <h4 className="font-black mb-6 text-xl uppercase tracking-wider">{section.title}</h4>
               <ul className="space-y-4 text-white/90">
