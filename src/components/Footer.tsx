@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { SectionProps } from './types';
+import type { SectionProps } from './types';
 import { Linkedin, Twitter, Facebook } from 'lucide-react';
 import { useNavItems } from '../hooks/useNavItems';
 
