@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Calendar, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { fadeInUp, staggerParent } from './animations';
+import { cardList, cardItem } from './animations';
 import { events } from '../data/events';
 
 const EventsSection = ({ id }: SectionProps) => {
@@ -26,7 +26,7 @@ const EventsSection = ({ id }: SectionProps) => {
         </motion.div>
 
         <motion.div
-          variants={staggerParent}
+          variants={cardList}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
@@ -35,7 +35,7 @@ const EventsSection = ({ id }: SectionProps) => {
           {events.map((event) => (
             <motion.div
               key={event.id}
-              variants={fadeInUp}
+              variants={cardItem}
               whileHover={{ scale: 1.05, y: -10 }}
               className={`bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all cursor-pointer ${
                 event.featured ? 'ring-4 ring-[#FFC940] ring-opacity-50' : 'border-2 border-slate-200'

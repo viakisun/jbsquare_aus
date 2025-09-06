@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
-import { fadeInUp, staggerParent } from './animations';
+import { cardList, cardItem } from './animations';
 import { orgs } from '../data/supportOrgs';
 
 const SupportOrgsSection = ({ id }: SectionProps) => {
@@ -24,11 +24,11 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
         {Object.entries(groupedOrgs).map(([type, orgList]) => (
           <div key={type} className="mb-12">
             <h3 className="text-3xl font-bold text-slate-800 mb-8 border-l-4 border-[#FFC940] pl-4">{type}</h3>
-            <motion.div variants={staggerParent} initial="initial" whileInView="animate" viewport={{ once: true }} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <motion.div variants={cardList} initial="initial" whileInView="animate" viewport={{ once: true }} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {orgList.map(org => (
                 <motion.div
                   key={org.name}
-                  variants={fadeInUp}
+                  variants={cardItem}
                   whileHover={{ y: -5, scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.1)" }}
                   className="bg-slate-50 rounded-xl p-6 text-center transition-all"
                 >
