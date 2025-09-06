@@ -37,7 +37,7 @@ const CompaniesSection = ({ id }: SectionProps) => {
               key={company.id}
               variants={cardItem}
               whileHover={{ scale: 1.05, y: -10 }}
-              className="bg-white rounded-2xl border-3 border-slate-200 hover:border-[#0B2D63] hover:shadow-2xl transition-all cursor-pointer overflow-hidden"
+              className="bg-white rounded-2xl border-2 border-slate-200 shadow-xl hover:shadow-2xl transition-all cursor-pointer overflow-hidden"
             >
               <div className="h-48 relative overflow-hidden">
                 <img
