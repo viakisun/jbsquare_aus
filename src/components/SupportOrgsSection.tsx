@@ -3,18 +3,10 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
 import { boldFadeIn, staggerBold } from './animations';
+import { orgs } from '../data/supportOrgs';
 
 const SupportOrgsSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
-
-  const orgs = [
-    { type: 'National Agency', name: 'Ministry of SMEs and Startups', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-    { type: 'National Agency', name: 'Korea Institute of Startup & Entrepreneurship Development', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-    { type: 'University', name: 'Jeonbuk National University', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-    { type: 'University', name: 'Wonkwang University', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-    { type: 'Research Institute', name: 'Korea Research Institute of Bioscience and Biotechnology (KRIBB)', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-    { type: 'Research Institute', name: 'Agency for Defense Development (ADD)', logo: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=100' },
-  ];
 
   const groupedOrgs = orgs.reduce((acc, org) => {
     (acc[org.type] = acc[org.type] || []).push(org);
@@ -34,7 +26,12 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
             <h3 className="text-3xl font-bold text-slate-800 mb-8 border-l-4 border-[#FFC940] pl-4">{type}</h3>
             <motion.div variants={staggerBold} initial="initial" whileInView="animate" viewport={{ once: true }} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {orgList.map(org => (
-                <motion.div key={org.name} variants={boldFadeIn} className="bg-slate-50 rounded-xl p-6 text-center hover:bg-white hover:shadow-lg transition-all">
+                <motion.div
+                  key={org.name}
+                  variants={boldFadeIn}
+                  whileHover={{ y: -5, scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.1)" }}
+                  className="bg-slate-50 rounded-xl p-6 text-center transition-all"
+                >
                   <img src={org.logo} alt={`${org.name} Logo`} className="h-16 mx-auto mb-4" />
                   <h4 className="font-bold text-lg text-slate-700">{org.name}</h4>
                 </motion.div>

@@ -3,17 +3,10 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import type { SectionProps } from './types';
 import { boldFadeIn, staggerBold } from './animations';
+import { techData } from '../data/tech';
 
 const TechPatentsSection = ({ id }: SectionProps) => {
   const { t } = useTranslation();
-
-  const techData = [
-    { id: 'P2025-001', type: 'Patent', title: 'Novel CRISPR-Cas12 Variant for Enhanced Gene Editing', authors: 'Kim, J. et al.', date: '2025-08-15', category: 'Gene Editing' },
-    { id: 'R2025-003', type: 'Research', title: 'Biocompatible Hydrogels for 3D Organoid Culture', authors: 'Park, S. et al.', date: '2025-08-10', category: 'Biomaterials' },
-    { id: 'P2025-002', type: 'Patent', title: 'AI-Driven Platform for Predicting Protein Folding', authors: 'Lee, H. et al.', date: '2025-07-28', category: 'AI in Bio' },
-    { id: 'TT2025-001', type: 'Tech Transfer', title: 'License for Continuous Glucose Monitoring Sensor Tech', authors: 'MedTech Solutions', date: '2025-07-20', category: 'Medical Device' },
-    { id: 'R2025-004', type: 'Research', title: 'Microbiome Modulation for Immune-Oncology Therapies', authors: 'Choi, Y. et al.', date: '2025-07-15', category: 'Immunology' },
-  ];
 
   return (
     <section id={id} className="py-24 bg-white">
@@ -32,7 +25,7 @@ const TechPatentsSection = ({ id }: SectionProps) => {
                     item.type === 'Patent' ? 'bg-blue-100 text-blue-800' :
                     item.type === 'Research' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
                   }`}>{item.type}</span>
-                  <h3 className="text-lg font-bold text-[#0B2D63]">{item.title}</h3>
+                  <h3 className="text-lg font-bold text-[#0B2D63]">{t(item.titleKey)}</h3>
                 </div>
                 <p className="text-slate-600 font-medium">{item.authors}</p>
                 <p className="text-slate-500">{item.date}</p>
