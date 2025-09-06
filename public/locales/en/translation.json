@@ -78,6 +78,24 @@
   },
   "data": {
     "announcements": {
+      "status": {
+        "active": "Active",
+        "open": "Open",
+        "closing_soon": "Closing Soon",
+        "closed": "Closed",
+        "completed": "Completed"
+      },
+      "category": {
+        "funding": "Funding",
+        "permits": "Permits",
+        "investment": "Investment",
+        "rd": "R&D",
+        "incubation": "Incubation",
+        "grants": "Grants",
+        "partnership": "Partnership",
+        "commercialization": "Commercialization",
+        "recruitment": "Recruitment"
+      },
       "1": {
         "title": "2025 Biotech Innovation Fund Now Open",
         "description": "Revolutionary government funding program for next-gen biotech startups."

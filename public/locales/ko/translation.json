@@ -78,6 +78,24 @@
   },
   "data": {
     "announcements": {
+      "status": {
+        "active": "진행중",
+        "open": "접수중",
+        "closing_soon": "마감 임박",
+        "closed": "마감",
+        "completed": "완료"
+      },
+      "category": {
+        "funding": "자금",
+        "permits": "인허가",
+        "investment": "투자",
+        "rd": "R&D",
+        "incubation": "인큐베이션",
+        "grants": "보조금",
+        "partnership": "파트너십",
+        "commercialization": "상용화",
+        "recruitment": "채용"
+      },
       "1": {
         "title": "2025 바이오테크 혁신 펀드 접수 시작",
         "description": "차세대 바이오테크 스타트업을 위한 혁신적인 정부 기금 프로그램입니다."
