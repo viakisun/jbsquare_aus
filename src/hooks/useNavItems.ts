@@ -4,11 +4,40 @@ export const useNavItems = () => {
   const { t } = useTranslation();
 
   const navItems = [
-    { title: t('nav.about'), key: 'about', subItems: [ { name: t('nav.jbsquare'), href: '#jbsquare' }, { name: t('nav.biovalley'), href: '#biovalley' }, { name: t('nav.supportorgs'), href: '#supportorgs' } ] },
-    { title: t('nav.opportunities'), key: 'opportunities', subItems: [ { name: t('nav.investment'), href: '#investment' }, { name: t('nav.announcements'), href: '#announcements' }, { name: t('nav.bizsupport'), href: '#bizsupport' } ] },
-    { title: t('nav.information'), key: 'information', subItems: [ { name: t('nav.companies'), href: '#companies' }, { name: t('nav.patents'), href: '#patents' } ] },
-    { title: t('nav.news'), key: 'news', subItems: [ { name: t('nav.news'), href: '#news' }, { name: t('nav.community'), href: '#community' } ] },
-    { title: t('nav.support'), key: 'support', subItems: [ { name: t('nav.contact'), href: '#contact' }, { name: t('nav.newsletter'), href: '#newsletter' } ] }
+    {
+      key: 'about',
+      title: t('nav.about.title'),
+      subItems: [
+        { name: t('nav.about.intro'), href: '#hero' },
+        { name: t('nav.about.vision'), href: '#stats' },
+        { name: t('nav.about.orgs'), href: '#support' },
+      ],
+    },
+    {
+      key: 'business',
+      title: t('nav.business.title'),
+      subItems: [
+        { name: t('nav.business.support'), href: '#policy' },
+        { name: t('nav.business.investment'), href: '#policy' },
+      ],
+    },
+    {
+      key: 'community',
+      title: t('nav.community.title'),
+      subItems: [
+        { name: t('nav.community.announcements'), href: '#announcements' },
+        { name: t('nav.community.events'), href: '#events' },
+      ],
+    },
+    {
+      key: 'info',
+      title: t('nav.info.title'),
+      subItems: [
+        { name: t('nav.info.companies'), href: '#companies' },
+        { name: t('nav.info.tech'), href: '#tech' },
+        { name: t('nav.info.policy'), href: '#policy' },
+      ],
+    },
   ];
 
   return navItems;

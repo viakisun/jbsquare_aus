@@ -1,10 +1,30 @@
 {
   "nav": {
-    "about": "JB SQUARE 소개",
-    "business": "기업육성",
-    "community": "커뮤니티",
-    "info": "정보 허브",
-    "lang": "ENGLISH"
+    "lang_en": "ENGLISH",
+    "lang_ko": "한국어",
+    "getStarted": "시작하기",
+    "about": {
+      "title": "JB SQUARE 소개",
+      "intro": "소개",
+      "vision": "비전 및 CI",
+      "orgs": "지원 기관"
+    },
+    "business": {
+      "title": "기업 육성",
+      "support": "스타트업 지원",
+      "investment": "투자 정보"
+    },
+    "community": {
+      "title": "커뮤니티",
+      "announcements": "공지사항",
+      "events": "이벤트 및 세미나"
+    },
+    "info": {
+      "title": "정보 허브",
+      "companies": "기업 디렉토리",
+      "tech": "기술 및 특허",
+      "policy": "정책 데이터"
+    }
   },
   "hero": {
     "title": "전북에서 피어나는 바이오 기술의 미래",
