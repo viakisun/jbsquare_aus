@@ -43,8 +43,8 @@ const SupportOrgsSection = ({ id }: SectionProps) => {
                 <motion.div
                   key={org.name}
                   variants={cardItem}
-                  whileHover={{ y: -5, scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.1)" }}
-                  className="bg-slate-50 rounded-xl p-6 flex flex-col text-left transition-all h-full"
+                  whileHover={{ y: -5, scale: 1.05 }}
+                  className="bg-white rounded-2xl p-6 flex flex-col text-left transition-all h-full border-2 border-slate-200 shadow-lg hover:shadow-xl"
                 >
                   <img src={org.logo} alt={`${org.name} Logo`} className="h-12 mb-4 self-start" />
                   <h4 className="font-black text-xl text-slate-800">{org.name}</h4>

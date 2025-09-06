@@ -1,5 +1,13 @@
 export const orgs = [
   {
+    id: 10,
+    type: 'National Agency',
+    name: '전북테크노파크',
+    descriptionKey: 'data.orgs.10.desc',
+    logo: 'https://picsum.photos/seed/jbtp/100',
+    tags: ['biz_support', 'incubation']
+  },
+  {
     id: 1,
     type: 'National Agency',
     name: '전북바이오융합산업진흥원 (JIF)',
@@ -10,10 +18,26 @@ export const orgs = [
   {
     id: 2,
     type: 'National Agency',
-    name: '농업기술실용화재단 (FACT)',
+    name: '한국농업기술진흥원 (FACT)',
     descriptionKey: 'data.orgs.2.desc',
     logo: 'https://picsum.photos/seed/fact/100',
     tags: ['agritech', 'commercialization']
+  },
+  {
+    id: 13,
+    type: 'Research Institute',
+    name: '한국전자기술연구원 (KETI) 전북본부',
+    descriptionKey: 'data.orgs.13.desc',
+    logo: 'https://picsum.photos/seed/keti/100',
+    tags: ['rd_support', 'medtech']
+  },
+  {
+    id: 14,
+    type: 'Research Institute',
+    name: '한국생산기술연구원 (KITECH) 전북본부',
+    descriptionKey: 'data.orgs.14.desc',
+    logo: 'https://picsum.photos/seed/kitech/100',
+    tags: ['rd_support', 'biomaterials']
   },
   {
     id: 3,
@@ -48,14 +72,6 @@ export const orgs = [
     tags: ['education', 'medtech']
   },
   {
-    id: 7,
-    type: 'National Agency',
-    name: '캠틱종합기술원',
-    descriptionKey: 'data.orgs.7.desc',
-    logo: 'https://picsum.photos/seed/camtic/100',
-    tags: ['biz_support', 'commercialization']
-  },
-  {
     id: 8,
     type: 'Research Institute',
     name: '한국원자력연구원 첨단방사선연구소',
@@ -70,14 +86,6 @@ export const orgs = [
     descriptionKey: 'data.orgs.9.desc',
     logo: 'https://picsum.photos/seed/jju/100',
     tags: ['education', 'food_science']
-  },
-  {
-    id: 10,
-    type: 'National Agency',
-    name: '전북테크노파크',
-    descriptionKey: 'data.orgs.10.desc',
-    logo: 'https://picsum.photos/seed/jbtp/100',
-    tags: ['biz_support', 'incubation']
   },
   {
     id: 11,
