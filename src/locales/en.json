@@ -34,14 +34,14 @@
     "companyDirectory": "Company Directory"
   },
   "stats": {
-    "title": "Jeonbuk's Bio-Industry at a Glance",
-    "subtitle": "A thriving ecosystem of innovation and growth, backed by strong infrastructure and talent.",
-    "companies": "Companies",
-    "institutes": "Institutes",
-    "investment": "Total Investment",
-    "researchers": "Researchers",
-    "patents": "Patents",
-    "partners": "Global Partners"
+    "title": "Our Achievements",
+    "subtitle": "Driving growth and innovation in the bio-industry through dedicated support and strategic initiatives.",
+    "incubated": "Startups Incubated",
+    "funding": "Funding Secured",
+    "patents": "Patents Commercialized",
+    "jobs": "Jobs Created",
+    "partnerships": "Global Partnerships",
+    "events": "Events Hosted"
   },
   "announcements": {
     "title": "Latest News & Announcements",
@@ -91,12 +91,12 @@
   },
   "data": {
     "stats": {
-      "companies": { "number": "150+" },
-      "institutes": { "number": "25" },
-      "investment": { "number": "$2.1B" },
-      "researchers": { "number": "5,000+" },
-      "patents": { "number": "1,200+" },
-      "partners": { "number": "40+" }
+      "incubated": { "number": "50+", "desc": "Promising startups successfully graduated from our incubation program." },
+      "funding": { "number": "$250M", "desc": "Total investment secured by companies within the JB SQUARE ecosystem." },
+      "patents": { "number": "75", "desc": "Technologies and patents successfully commercialized with our support." },
+      "jobs": { "number": "1,200+", "desc": "New positions created by our partner companies and incubated startups." },
+      "partnerships": { "number": "40+", "desc": "International and domestic partnerships established to foster collaboration." },
+      "events": { "number": "100+", "desc": "Seminars, workshops, and networking events hosted to build our community." }
     },
     "announcements": {
       "status": { "active": "Active", "open": "Open", "closing_soon": "Closing Soon", "closed": "Closed", "completed": "Completed" },

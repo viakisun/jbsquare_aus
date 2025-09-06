@@ -1,8 +1,40 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useRef } from 'react';
+import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { cardList, cardItem } from './animations';
 import { stats } from '../data/stats';
+
+const AnimatedNumber = ({ value }: { value: string }) => {
+  const ref = useRef<HTMLSpanElement>(null);
+  const motionValue = useMotionValue(0);
+  const springValue = useSpring(motionValue, {
+    damping: 100,
+    stiffness: 100,
+  });
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
+
+  useEffect(() => {
+    if (isInView) {
+      // Extracts the first number found in the string, ignoring commas.
+      const match = value.match(/([\d,]+)/);
+      if (match) {
+        const numericValue = parseInt(match[0].replace(/,/g, ''), 10);
+        motionValue.set(numericValue);
+      }
+    }
+  }, [motionValue, isInView, value]);
+
+  useEffect(() =>
+    springValue.on("change", (latest) => {
+      if (ref.current) {
+        // Re-format the animated number and place it back into the original string structure
+        const rounded = Math.round(latest);
+        ref.current.textContent = value.replace(/([\d,]+)/, rounded.toLocaleString());
+      }
+    }), [springValue, value]);
+
+  return <span ref={ref}>{value}</span>;
+};
 
 const StatsSection = () => {
   const { t } = useTranslation();
@@ -40,10 +72,11 @@ const StatsSection = () => {
               <div className={`inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br ${stat.color} rounded-2xl mb-6 shadow-lg`}>
                 <stat.icon className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-4xl font-black text-[#0B2D63] mb-3">
-                {t(stat.numberKey)}
+              <h3 className="text-4xl md:text-5xl font-black text-[#0B2D63] mb-2">
+                <AnimatedNumber value={t(stat.numberKey)} />
               </h3>
-              <p className="text-slate-600 font-semibold uppercase tracking-wider">{t(`stats.${stat.key}`)}</p>
+              <p className="text-slate-800 font-bold uppercase tracking-wider mb-4">{t(`stats.${stat.key}`)}</p>
+              <p className="text-slate-600 font-medium text-sm leading-relaxed">{t(stat.descKey)}</p>
             </motion.div>
           ))}
         </motion.div>
