@@ -88,7 +88,7 @@
     "stay_updated": "최신 소식 받기",
     "email_placeholder": "이메일을 입력하세요",
     "subscribe": "구독하기",
-    "copyright": "© 2025 JB SQUARE. All rights reserved."
+    "copyright": "© {{year}} JB SQUARE. All rights reserved."
   },
   "data": {
     "stats": {
