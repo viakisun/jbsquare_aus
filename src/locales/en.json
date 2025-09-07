@@ -80,7 +80,8 @@
   "tech": {
     "title": "Leading Technologies & Patents",
     "subtitle": "Explore cutting-edge technologies and intellectual property from Jeonbuk's innovators.",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "trl_label": "TRL"
   },
   "footer": {
     "subtitle": "Your central hub for advancing bio-industry in the Jeonbuk region through collaboration, innovation, and strategic support.",
@@ -167,11 +168,17 @@
       }
     },
     "tech": {
-      "1": { "title": "Novel CRISPR-Cas9 Variant for Gene Editing", "type": "Patent", "authors": "Kim, J. et al." },
-      "2": { "title": "AI-based Drug Repurposing Platform", "type": "Research", "authors": "Park, S. et al." },
-      "3": { "title": "Organoid Culture Technology for Personalized Medicine", "type": "Patent", "authors": "Lee, H. et al." },
-      "4": { "title": "Microbiome-based Therapeutic Delivery System", "type": "Tech Transfer", "authors": "MedTech Solutions" },
-      "5": { "title": "High-throughput Screening of Natural Compounds", "type": "Research", "authors": "Choi, Y. et al." }
+      "status": {
+        "licensing": "Licensing Available",
+        "research": "In Research",
+        "partnership": "Partnership Opportunity",
+        "commercialized": "Commercialized"
+      },
+      "1": { "title": "Novel CRISPR-Cas9 Variant for Gene Editing", "desc": "A next-generation gene-editing tool with higher precision and lower off-target effects.", "authors": "Kim, J. et al." },
+      "2": { "title": "AI-based Drug Repurposing Platform", "desc": "Utilizes machine learning to identify new therapeutic uses for existing approved drugs.", "authors": "Park, S. et al." },
+      "3": { "title": "Organoid Culture Technology for Personalized Medicine", "desc": "Advanced 3D cell culture that mimics human organs for more accurate drug screening.", "authors": "Lee, H. et al." },
+      "4": { "title": "Microbiome-based Therapeutic Delivery System", "desc": "An engineered bacterial system for targeted drug delivery to the gut.", "authors": "MedTech Solutions" },
+      "5": { "title": "High-throughput Screening of Natural Compounds", "desc": "A platform for rapidly screening thousands of natural compounds for bio-activity.", "authors": "Choi, Y. et al." }
     }
   }
 }
